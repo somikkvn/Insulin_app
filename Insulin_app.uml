@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_bksLIMK-Ee2ePvNdNGTLsQ" name="Insulin_app">
+    <eAnnotations xmi:id="_b1rNcMK-Ee2ePvNdNGTLsQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_b1yiMMK-Ee2ePvNdNGTLsQ" source="codegen">
+        <details xmi:id="_b1yiMcK-Ee2ePvNdNGTLsQ" key="codegenDirectory" value="/Insulin_app/app/build/generated/data_binding_base_class_source_out/debug/out"/>
+        <details xmi:id="_c1JGYMK-Ee2ePvNdNGTLsQ" key="AssociatedSourceCode" value="/Insulin_app/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/insulin_app/databinding/ActivityCalendarBinding.java;2762408638/1;/Insulin_app/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/insulin_app/databinding/ActivityFirstBinding.java;2052445964/1;/Insulin_app/app/src/test/java/com/example/insulin_app/ExampleUnitTest.java;4248466034/1;/Insulin_app/app/build/generated/source/buildConfig/debug/com/example/insulin_app/BuildConfig.java;1681438604/1;/Insulin_app/app/src/androidTest/java/com/example/insulin_app/ExampleInstrumentedTest.java;2587154580/1;/Insulin_app/app/src/main/java/com/example/insulin_app/CalendarActivity.java;1319258480/1;/Insulin_app/app/src/main/java/com/example/insulin_app/FirstActivity.java;2829034295/1;/Insulin_app/app/src/main/java/com/example/insulin_app/MainActivity.java;1431619653/1;/Insulin_app/app/build/generated/data_binding_base_class_source_out/debug/out/com/example/insulin_app/databinding/ActivityMainBinding.java;2738095064/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_cUnMMMK-Ee2ePvNdNGTLsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_cUnMMcK-Ee2ePvNdNGTLsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_cUnMMsK-Ee2ePvNdNGTLsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_cUnzQMK-Ee2ePvNdNGTLsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_cUnzQcK-Ee2ePvNdNGTLsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_cUnzQsK-Ee2ePvNdNGTLsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_cUnzQ8K-Ee2ePvNdNGTLsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_cUoaUMK-Ee2ePvNdNGTLsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_cUpBYMK-Ee2ePvNdNGTLsQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cRLdsMK-Ee2ePvNdNGTLsQ" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cRMEwMK-Ee2ePvNdNGTLsQ" name="example">
+        <packagedElement xmi:type="uml:Package" xmi:id="_cRMr0MK-Ee2ePvNdNGTLsQ" name="insulin_app">
+          <packagedElement xmi:type="uml:Package" xmi:id="_cR-u8MK-Ee2ePvNdNGTLsQ" name="databinding">
+            <packagedElement xmi:type="uml:Class" xmi:id="_cUc0IMK-Ee2ePvNdNGTLsQ" name="ActivityCalendarBinding" isLeaf="true">
+              <ownedAttribute xmi:id="_cf-usMK-Ee2ePvNdNGTLsQ" name="rootView" visibility="private" isLeaf="true" type="_cb4R0cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_ciiTcMK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgByAMK-Ee2ePvNdNGTLsQ" name="button" isLeaf="true" type="_cbvH4cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cikIocK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgDnMMK-Ee2ePvNdNGTLsQ" name="button2" isLeaf="true" type="_cbvH4cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cil90cK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgE1UsK-Ee2ePvNdNGTLsQ" name="calendarView" isLeaf="true" type="_cbxkIMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cinzAcK-Ee2ePvNdNGTLsQ"/>
+              <interfaceRealization xmi:id="_ceAYwMK-Ee2ePvNdNGTLsQ" client="_cUc0IMK-Ee2ePvNdNGTLsQ" supplier="_cb6uEcK-Ee2ePvNdNGTLsQ" contract="_cb6uEcK-Ee2ePvNdNGTLsQ"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_chJMUMK-Ee2ePvNdNGTLsQ" name="ActivityCalendarBinding" specification="_ceEDIMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_chJzYMK-Ee2ePvNdNGTLsQ" name="rootView" type="_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_chJzYcK-Ee2ePvNdNGTLsQ" name="button" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_chJzYsK-Ee2ePvNdNGTLsQ" name="button2" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_chJzY8K-Ee2ePvNdNGTLsQ" name="calendarView" type="_cbxkIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_chJzZMK-Ee2ePvNdNGTLsQ" type="_cUc0IMK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>this.rootView = rootView;
+ this.button = button;
+ this.button2 = button2;
+ this.calendarView = calendarView;
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_chz6sMK-Ee2ePvNdNGTLsQ" name="getRoot" specification="_cUtS0MK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_chz6scK-Ee2ePvNdNGTLsQ" type="_cb4R0cK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>return rootView;
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch0hwMK-Ee2ePvNdNGTLsQ" name="inflate" specification="_ceL-8MK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ch0hwcK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch0hwsK-Ee2ePvNdNGTLsQ" type="_cUc0IMK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>return inflate(inflater, null, false);
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch1I0MK-Ee2ePvNdNGTLsQ" name="inflate" specification="_ceQQYMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ch1I0cK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch1I0sK-Ee2ePvNdNGTLsQ" name="parent" type="_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch1I08K-Ee2ePvNdNGTLsQ" name="attachToParent">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ch1I1MK-Ee2ePvNdNGTLsQ" type="_cUc0IMK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>View root = inflater.inflate(R.layout.activity_calendar, parent, false);
+ if (attachToParent) {
+   parent.addView(root);
+ }
+ return bind(root);
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch1v4MK-Ee2ePvNdNGTLsQ" name="bind" specification="_ceWXAMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ch1v4cK-Ee2ePvNdNGTLsQ" name="rootView" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch1v4sK-Ee2ePvNdNGTLsQ" type="_cUc0IMK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>int id;
+ missingId: {
+   id = R.id.button;
+   Button button = ViewBindings.findChildViewById(rootView, id);
+   if (button == null) {
+     break missingId;
+   }
+
+   id = R.id.button2;
+   Button button2 = ViewBindings.findChildViewById(rootView, id);
+   if (button2 == null) {
+     break missingId;
+   }
+
+   id = R.id.calendarView;
+   CalendarView calendarView = ViewBindings.findChildViewById(rootView, id);
+   if (calendarView == null) {
+     break missingId;
+   }
+
+   return new ActivityCalendarBinding((ConstraintLayout) rootView, button, button2,
+       calendarView);
+ }
+ String missingId = rootView.getResources().getResourceName(id);
+ throw new NullPointerException(&quot;Missing required view with ID: &quot;.concat(missingId));
+  </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_cUtS0MK-Ee2ePvNdNGTLsQ" name="getRoot" method="_chz6sMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ceLX4MK-Ee2ePvNdNGTLsQ" type="_cb4R0cK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ceEDIMK-Ee2ePvNdNGTLsQ" name="ActivityCalendarBinding" visibility="private" method="_chJMUMK-Ee2ePvNdNGTLsQ">
+                <eAnnotations xmi:id="_ceGfYMK-Ee2ePvNdNGTLsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_ceGfYcK-Ee2ePvNdNGTLsQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_ceEDIcK-Ee2ePvNdNGTLsQ" name="rootView" type="_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceEqMMK-Ee2ePvNdNGTLsQ" name="button" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceFRQMK-Ee2ePvNdNGTLsQ" name="button2" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceFRQcK-Ee2ePvNdNGTLsQ" name="calendarView" type="_cbxkIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceHtgMK-Ee2ePvNdNGTLsQ" type="_cUc0IMK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ceL-8MK-Ee2ePvNdNGTLsQ" name="inflate" isStatic="true" method="_ch0hwMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ceL-8cK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceMmAMK-Ee2ePvNdNGTLsQ" type="_cUc0IMK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ceQQYMK-Ee2ePvNdNGTLsQ" name="inflate" isStatic="true" method="_ch1I0MK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ceQQYcK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceQ3cMK-Ee2ePvNdNGTLsQ" name="parent" type="_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceQ3ccK-Ee2ePvNdNGTLsQ" name="attachToParent">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ceRegMK-Ee2ePvNdNGTLsQ" type="_cUc0IMK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ceWXAMK-Ee2ePvNdNGTLsQ" name="bind" isStatic="true" method="_ch1v4MK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ceWXAcK-Ee2ePvNdNGTLsQ" name="rootView" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceW-EMK-Ee2ePvNdNGTLsQ" type="_cUc0IMK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_cVbrkMK-Ee2ePvNdNGTLsQ" name="ActivityFirstBinding" isLeaf="true">
+              <ownedAttribute xmi:id="_cgIfsMK-Ee2ePvNdNGTLsQ" name="rootView" visibility="private" isLeaf="true" type="_cb4R0cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cipoMMK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgKU4MK-Ee2ePvNdNGTLsQ" name="button6" isLeaf="true" type="_cbvH4cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cirdYMK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgMKEMK-Ee2ePvNdNGTLsQ" name="button7" isLeaf="true" type="_cbvH4cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cisrgcK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgNYMMK-Ee2ePvNdNGTLsQ" name="textView8" isLeaf="true" type="_ccZPMMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_ciugsMK-Ee2ePvNdNGTLsQ"/>
+              <interfaceRealization xmi:id="_ceb2kMK-Ee2ePvNdNGTLsQ" client="_cVbrkMK-Ee2ePvNdNGTLsQ" supplier="_cb6uEcK-Ee2ePvNdNGTLsQ" contract="_cb6uEcK-Ee2ePvNdNGTLsQ"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch2-AMK-Ee2ePvNdNGTLsQ" name="ActivityFirstBinding" specification="_cee54MK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ch2-AcK-Ee2ePvNdNGTLsQ" name="rootView" type="_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch2-AsK-Ee2ePvNdNGTLsQ" name="button6" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch2-A8K-Ee2ePvNdNGTLsQ" name="button7" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch2-BMK-Ee2ePvNdNGTLsQ" name="textView8" type="_ccZPMMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch2-BcK-Ee2ePvNdNGTLsQ" type="_cVbrkMK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>this.rootView = rootView;
+ this.button6 = button6;
+ this.button7 = button7;
+ this.textView8 = textView8;
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch3lEMK-Ee2ePvNdNGTLsQ" name="getRoot" specification="_cViZQMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ch3lEcK-Ee2ePvNdNGTLsQ" type="_cb4R0cK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>return rootView;
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch4MIMK-Ee2ePvNdNGTLsQ" name="inflate" specification="_ceoD0MK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ch4MIcK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch4MIsK-Ee2ePvNdNGTLsQ" type="_cVbrkMK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>return inflate(inflater, null, false);
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch4zMMK-Ee2ePvNdNGTLsQ" name="inflate" specification="_cetjYMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ch4zMcK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch4zMsK-Ee2ePvNdNGTLsQ" name="parent" type="_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch4zM8K-Ee2ePvNdNGTLsQ" name="attachToParent">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ch4zNMK-Ee2ePvNdNGTLsQ" type="_cVbrkMK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>View root = inflater.inflate(R.layout.activity_first, parent, false);
+ if (attachToParent) {
+   parent.addView(root);
+ }
+ return bind(root);
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch6BUMK-Ee2ePvNdNGTLsQ" name="bind" specification="_ceyb4MK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ch6BUcK-Ee2ePvNdNGTLsQ" name="rootView" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ch6BUsK-Ee2ePvNdNGTLsQ" type="_cVbrkMK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>int id;
+ missingId: {
+   id = R.id.button6;
+   Button button6 = ViewBindings.findChildViewById(rootView, id);
+   if (button6 == null) {
+     break missingId;
+   }
+
+   id = R.id.button7;
+   Button button7 = ViewBindings.findChildViewById(rootView, id);
+   if (button7 == null) {
+     break missingId;
+   }
+
+   id = R.id.textView8;
+   TextView textView8 = ViewBindings.findChildViewById(rootView, id);
+   if (textView8 == null) {
+     break missingId;
+   }
+
+   return new ActivityFirstBinding((ConstraintLayout) rootView, button6, button7, textView8);
+ }
+ String missingId = rootView.getResources().getResourceName(id);
+ throw new NullPointerException(&quot;Missing required view with ID: &quot;.concat(missingId));
+  </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_cViZQMK-Ee2ePvNdNGTLsQ" name="getRoot" method="_ch3lEMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_cem1sMK-Ee2ePvNdNGTLsQ" type="_cb4R0cK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_cee54MK-Ee2ePvNdNGTLsQ" name="ActivityFirstBinding" visibility="private" method="_ch2-AMK-Ee2ePvNdNGTLsQ">
+                <eAnnotations xmi:id="_cegIAMK-Ee2ePvNdNGTLsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_cegIAcK-Ee2ePvNdNGTLsQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_cee54cK-Ee2ePvNdNGTLsQ" name="rootView" type="_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cefg8MK-Ee2ePvNdNGTLsQ" name="button6" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cefg8cK-Ee2ePvNdNGTLsQ" name="button7" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cefg8sK-Ee2ePvNdNGTLsQ" name="textView8" type="_ccZPMMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceikQMK-Ee2ePvNdNGTLsQ" type="_cVbrkMK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ceoD0MK-Ee2ePvNdNGTLsQ" name="inflate" isStatic="true" method="_ch4MIMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ceoq4MK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cepR8MK-Ee2ePvNdNGTLsQ" type="_cVbrkMK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_cetjYMK-Ee2ePvNdNGTLsQ" name="inflate" isStatic="true" method="_ch4zMMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_cetjYcK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cetjYsK-Ee2ePvNdNGTLsQ" name="parent" type="_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ceuKcMK-Ee2ePvNdNGTLsQ" name="attachToParent">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ceuxgMK-Ee2ePvNdNGTLsQ" type="_cVbrkMK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_ceyb4MK-Ee2ePvNdNGTLsQ" name="bind" isStatic="true" method="_ch6BUMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ceyb4cK-Ee2ePvNdNGTLsQ" name="rootView" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cezC8MK-Ee2ePvNdNGTLsQ" type="_cVbrkMK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_cWsP0MK-Ee2ePvNdNGTLsQ" name="ActivityMainBinding" isLeaf="true">
+              <ownedAttribute xmi:id="_cgZlcMK-Ee2ePvNdNGTLsQ" name="rootView" visibility="private" isLeaf="true" type="_cb4R0cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cizZMcK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgbaocK-Ee2ePvNdNGTLsQ" name="buttonCalculate" isLeaf="true" type="_cbvH4cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_ci11cMK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgd24MK-Ee2ePvNdNGTLsQ" name="buttonNext" isLeaf="true" type="_cbvH4cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_ci3qoMK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgfsEMK-Ee2ePvNdNGTLsQ" name="editTextAge" isLeaf="true" type="_cdCIYMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_ci44wcK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cghhQMK-Ee2ePvNdNGTLsQ" name="editTextHeight" isLeaf="true" type="_cdCIYMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_ci6t8MK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgjWcMK-Ee2ePvNdNGTLsQ" name="editTextWeight" isLeaf="true" type="_cdCIYMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_ci78EcK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cglysMK-Ee2ePvNdNGTLsQ" name="linearLayout" isLeaf="true" type="_cb4R0cK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_ci-_YMK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgnn4sK-Ee2ePvNdNGTLsQ" name="radioButton" isLeaf="true" type="_cdJdIMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cjA0kMK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgpdEcK-Ee2ePvNdNGTLsQ" name="radioButton2" isLeaf="true" type="_cdJdIMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cjDQ0MK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgsgYMK-Ee2ePvNdNGTLsQ" name="radioButton3" isLeaf="true" type="_cdJdIMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cjEe8cK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgu8oMK-Ee2ePvNdNGTLsQ" name="radioButton4" isLeaf="true" type="_cdJdIMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cjFtEcK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgwKwcK-Ee2ePvNdNGTLsQ" name="radioButton5" isLeaf="true" type="_cdJdIMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cjHiQMK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgx_8MK-Ee2ePvNdNGTLsQ" name="radioButton6" isLeaf="true" type="_cdJdIMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cjJXcMK-Ee2ePvNdNGTLsQ"/>
+              <ownedAttribute xmi:id="_cgzOEsK-Ee2ePvNdNGTLsQ" name="textView" isLeaf="true" type="_ccZPMMK-Ee2ePvNdNGTLsQ" isReadOnly="true" association="_cjLMoMK-Ee2ePvNdNGTLsQ"/>
+              <interfaceRealization xmi:id="_cfFW0MK-Ee2ePvNdNGTLsQ" client="_cWsP0MK-Ee2ePvNdNGTLsQ" supplier="_cb6uEcK-Ee2ePvNdNGTLsQ" contract="_cb6uEcK-Ee2ePvNdNGTLsQ"/>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ciDLQMK-Ee2ePvNdNGTLsQ" name="ActivityMainBinding" specification="_cfPH0MK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ciDLQcK-Ee2ePvNdNGTLsQ" name="rootView" type="_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLQsK-Ee2ePvNdNGTLsQ" name="buttonCalculate" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLQ8K-Ee2ePvNdNGTLsQ" name="buttonNext" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLRMK-Ee2ePvNdNGTLsQ" name="editTextAge" type="_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLRcK-Ee2ePvNdNGTLsQ" name="editTextHeight" type="_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLRsK-Ee2ePvNdNGTLsQ" name="editTextWeight" type="_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLR8K-Ee2ePvNdNGTLsQ" name="linearLayout" type="_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLSMK-Ee2ePvNdNGTLsQ" name="radioButton" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLScK-Ee2ePvNdNGTLsQ" name="radioButton2" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLSsK-Ee2ePvNdNGTLsQ" name="radioButton3" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLS8K-Ee2ePvNdNGTLsQ" name="radioButton4" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLTMK-Ee2ePvNdNGTLsQ" name="radioButton5" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLTcK-Ee2ePvNdNGTLsQ" name="radioButton6" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLTsK-Ee2ePvNdNGTLsQ" name="textView" type="_ccZPMMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciDLT8K-Ee2ePvNdNGTLsQ" type="_cWsP0MK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>this.rootView = rootView;
+ this.buttonCalculate = buttonCalculate;
+ this.buttonNext = buttonNext;
+ this.editTextAge = editTextAge;
+ this.editTextHeight = editTextHeight;
+ this.editTextWeight = editTextWeight;
+ this.linearLayout = linearLayout;
+ this.radioButton = radioButton;
+ this.radioButton2 = radioButton2;
+ this.radioButton3 = radioButton3;
+ this.radioButton4 = radioButton4;
+ this.radioButton5 = radioButton5;
+ this.radioButton6 = radioButton6;
+ this.textView = textView;
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ciEZYMK-Ee2ePvNdNGTLsQ" name="getRoot" specification="_cW5EIMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ciEZYcK-Ee2ePvNdNGTLsQ" type="_cb4R0cK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>return rootView;
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ciFAcMK-Ee2ePvNdNGTLsQ" name="inflate" specification="_cfgNkMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ciFAccK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciFAcsK-Ee2ePvNdNGTLsQ" type="_cWsP0MK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>return inflate(inflater, null, false);
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ciFAc8K-Ee2ePvNdNGTLsQ" name="inflate" specification="_cfowcMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ciFAdMK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciFAdcK-Ee2ePvNdNGTLsQ" name="parent" type="_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciFAdsK-Ee2ePvNdNGTLsQ" name="attachToParent">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_ciFAd8K-Ee2ePvNdNGTLsQ" type="_cWsP0MK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>View root = inflater.inflate(R.layout.activity_main, parent, false);
+ if (attachToParent) {
+   parent.addView(root);
+ }
+ return bind(root);
+  </body>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ciFngMK-Ee2ePvNdNGTLsQ" name="bind" specification="_cfwFMMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_ciFngcK-Ee2ePvNdNGTLsQ" name="rootView" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_ciFngsK-Ee2ePvNdNGTLsQ" type="_cWsP0MK-Ee2ePvNdNGTLsQ" direction="return"/>
+                <language>java</language>
+                <body>int id;
+ missingId: {
+   id = R.id.buttonCalculate;
+   Button buttonCalculate = ViewBindings.findChildViewById(rootView, id);
+   if (buttonCalculate == null) {
+     break missingId;
+   }
+
+   id = R.id.buttonNext;
+   Button buttonNext = ViewBindings.findChildViewById(rootView, id);
+   if (buttonNext == null) {
+     break missingId;
+   }
+
+   id = R.id.editTextAge;
+   EditText editTextAge = ViewBindings.findChildViewById(rootView, id);
+   if (editTextAge == null) {
+     break missingId;
+   }
+
+   id = R.id.editTextHeight;
+   EditText editTextHeight = ViewBindings.findChildViewById(rootView, id);
+   if (editTextHeight == null) {
+     break missingId;
+   }
+
+   id = R.id.editTextWeight;
+   EditText editTextWeight = ViewBindings.findChildViewById(rootView, id);
+   if (editTextWeight == null) {
+     break missingId;
+   }
+
+   id = R.id.linearLayout;
+   ConstraintLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+   if (linearLayout == null) {
+     break missingId;
+   }
+
+   id = R.id.radioButton;
+   RadioButton radioButton = ViewBindings.findChildViewById(rootView, id);
+   if (radioButton == null) {
+     break missingId;
+   }
+
+   id = R.id.radioButton2;
+   RadioButton radioButton2 = ViewBindings.findChildViewById(rootView, id);
+   if (radioButton2 == null) {
+     break missingId;
+   }
+
+   id = R.id.radioButton3;
+   RadioButton radioButton3 = ViewBindings.findChildViewById(rootView, id);
+   if (radioButton3 == null) {
+     break missingId;
+   }
+
+   id = R.id.radioButton4;
+   RadioButton radioButton4 = ViewBindings.findChildViewById(rootView, id);
+   if (radioButton4 == null) {
+     break missingId;
+   }
+
+   id = R.id.radioButton5;
+   RadioButton radioButton5 = ViewBindings.findChildViewById(rootView, id);
+   if (radioButton5 == null) {
+     break missingId;
+   }
+
+   id = R.id.radioButton6;
+   RadioButton radioButton6 = ViewBindings.findChildViewById(rootView, id);
+   if (radioButton6 == null) {
+     break missingId;
+   }
+
+   id = R.id.textView;
+   TextView textView = ViewBindings.findChildViewById(rootView, id);
+   if (textView == null) {
+     break missingId;
+   }
+
+   return new ActivityMainBinding((ConstraintLayout) rootView, buttonCalculate, buttonNext,
+       editTextAge, editTextHeight, editTextWeight, linearLayout, radioButton, radioButton2,
+       radioButton3, radioButton4, radioButton5, radioButton6, textView);
+ }
+ String missingId = rootView.getResources().getResourceName(id);
+ throw new NullPointerException(&quot;Missing required view with ID: &quot;.concat(missingId));
+  </body>
+              </ownedBehavior>
+              <ownedOperation xmi:id="_cW5EIMK-Ee2ePvNdNGTLsQ" name="getRoot" method="_ciEZYMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_cfeYYMK-Ee2ePvNdNGTLsQ" type="_cb4R0cK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_cfPH0MK-Ee2ePvNdNGTLsQ" name="ActivityMainBinding" visibility="private" method="_ciDLQMK-Ee2ePvNdNGTLsQ">
+                <eAnnotations xmi:id="_cfRkEMK-Ee2ePvNdNGTLsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_cfRkEcK-Ee2ePvNdNGTLsQ" key="create"/>
+                </eAnnotations>
+                <ownedParameter xmi:id="_cfPH0cK-Ee2ePvNdNGTLsQ" name="rootView" type="_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfPH0sK-Ee2ePvNdNGTLsQ" name="buttonCalculate" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfPu4MK-Ee2ePvNdNGTLsQ" name="buttonNext" type="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfPu4cK-Ee2ePvNdNGTLsQ" name="editTextAge" type="_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfPu4sK-Ee2ePvNdNGTLsQ" name="editTextHeight" type="_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfPu48K-Ee2ePvNdNGTLsQ" name="editTextWeight" type="_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfQV8MK-Ee2ePvNdNGTLsQ" name="linearLayout" type="_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfQV8cK-Ee2ePvNdNGTLsQ" name="radioButton" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfQV8sK-Ee2ePvNdNGTLsQ" name="radioButton2" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfQV88K-Ee2ePvNdNGTLsQ" name="radioButton3" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfQV9MK-Ee2ePvNdNGTLsQ" name="radioButton4" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfQ9AMK-Ee2ePvNdNGTLsQ" name="radioButton5" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfQ9AcK-Ee2ePvNdNGTLsQ" name="radioButton6" type="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfQ9AsK-Ee2ePvNdNGTLsQ" name="textView" type="_ccZPMMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfSLIcK-Ee2ePvNdNGTLsQ" type="_cWsP0MK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_cfgNkMK-Ee2ePvNdNGTLsQ" name="inflate" isStatic="true" method="_ciFAcMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_cfgNkcK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfg0oMK-Ee2ePvNdNGTLsQ" type="_cWsP0MK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_cfowcMK-Ee2ePvNdNGTLsQ" name="inflate" isStatic="true" method="_ciFAc8K-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_cfp-kMK-Ee2ePvNdNGTLsQ" name="inflater" type="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfqloMK-Ee2ePvNdNGTLsQ" name="parent" type="_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfqlocK-Ee2ePvNdNGTLsQ" name="attachToParent">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                </ownedParameter>
+                <ownedParameter xmi:id="_cfrMsMK-Ee2ePvNdNGTLsQ" type="_cWsP0MK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+              <ownedOperation xmi:id="_cfwFMMK-Ee2ePvNdNGTLsQ" name="bind" isStatic="true" method="_ciFngMK-Ee2ePvNdNGTLsQ">
+                <ownedParameter xmi:id="_cfwFMcK-Ee2ePvNdNGTLsQ" name="rootView" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+                <ownedParameter xmi:id="_cfwsQMK-Ee2ePvNdNGTLsQ" type="_cWsP0MK-Ee2ePvNdNGTLsQ" direction="return"/>
+              </ownedOperation>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ciiTcMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_ciiTccK-Ee2ePvNdNGTLsQ _cf-usMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_ciiTccK-Ee2ePvNdNGTLsQ" name="" type="_cUc0IMK-Ee2ePvNdNGTLsQ" association="_ciiTcMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cikIocK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cikIosK-Ee2ePvNdNGTLsQ _cgByAMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cikIosK-Ee2ePvNdNGTLsQ" name="" type="_cUc0IMK-Ee2ePvNdNGTLsQ" association="_cikIocK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cil90cK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cil90sK-Ee2ePvNdNGTLsQ _cgDnMMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cil90sK-Ee2ePvNdNGTLsQ" name="" type="_cUc0IMK-Ee2ePvNdNGTLsQ" association="_cil90cK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cinzAcK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cinzAsK-Ee2ePvNdNGTLsQ _cgE1UsK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cinzAsK-Ee2ePvNdNGTLsQ" name="" type="_cUc0IMK-Ee2ePvNdNGTLsQ" association="_cinzAcK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cipoMMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cipoMcK-Ee2ePvNdNGTLsQ _cgIfsMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cipoMcK-Ee2ePvNdNGTLsQ" name="" type="_cVbrkMK-Ee2ePvNdNGTLsQ" association="_cipoMMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cirdYMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cirdYcK-Ee2ePvNdNGTLsQ _cgKU4MK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cirdYcK-Ee2ePvNdNGTLsQ" name="" type="_cVbrkMK-Ee2ePvNdNGTLsQ" association="_cirdYMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cisrgcK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cisrgsK-Ee2ePvNdNGTLsQ _cgMKEMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cisrgsK-Ee2ePvNdNGTLsQ" name="" type="_cVbrkMK-Ee2ePvNdNGTLsQ" association="_cisrgcK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ciugsMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_ciugscK-Ee2ePvNdNGTLsQ _cgNYMMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_ciugscK-Ee2ePvNdNGTLsQ" name="" type="_cVbrkMK-Ee2ePvNdNGTLsQ" association="_ciugsMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cizZMcK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cizZMsK-Ee2ePvNdNGTLsQ _cgZlcMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cizZMsK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_cizZMcK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ci11cMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_ci11ccK-Ee2ePvNdNGTLsQ _cgbaocK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_ci11ccK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_ci11cMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ci3qoMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_ci3qocK-Ee2ePvNdNGTLsQ _cgd24MK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_ci3qocK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_ci3qoMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ci44wcK-Ee2ePvNdNGTLsQ" name="" memberEnd="_ci44wsK-Ee2ePvNdNGTLsQ _cgfsEMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_ci44wsK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_ci44wcK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ci6t8MK-Ee2ePvNdNGTLsQ" name="" memberEnd="_ci6t8cK-Ee2ePvNdNGTLsQ _cghhQMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_ci6t8cK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_ci6t8MK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ci78EcK-Ee2ePvNdNGTLsQ" name="" memberEnd="_ci78EsK-Ee2ePvNdNGTLsQ _cgjWcMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_ci78EsK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_ci78EcK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_ci-_YMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_ci-_YcK-Ee2ePvNdNGTLsQ _cglysMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_ci-_YcK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_ci-_YMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cjA0kMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cjA0kcK-Ee2ePvNdNGTLsQ _cgnn4sK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cjA0kcK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_cjA0kMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cjDQ0MK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cjDQ0cK-Ee2ePvNdNGTLsQ _cgpdEcK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cjDQ0cK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_cjDQ0MK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cjEe8cK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cjEe8sK-Ee2ePvNdNGTLsQ _cgsgYMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cjEe8sK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_cjEe8cK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cjFtEcK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cjFtEsK-Ee2ePvNdNGTLsQ _cgu8oMK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cjFtEsK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_cjFtEcK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cjHiQMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cjHiQcK-Ee2ePvNdNGTLsQ _cgwKwcK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cjHiQcK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_cjHiQMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cjJXcMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cjJXccK-Ee2ePvNdNGTLsQ _cgx_8MK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cjJXccK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_cjJXcMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_cjLMoMK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cjLMocK-Ee2ePvNdNGTLsQ _cgzOEsK-Ee2ePvNdNGTLsQ">
+              <ownedEnd xmi:id="_cjLMocK-Ee2ePvNdNGTLsQ" name="" type="_cWsP0MK-Ee2ePvNdNGTLsQ" association="_cjLMoMK-Ee2ePvNdNGTLsQ"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cV6MsMK-Ee2ePvNdNGTLsQ" name="ExampleUnitTest">
+            <eAnnotations xmi:id="_cV7a0MK-Ee2ePvNdNGTLsQ" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cV8B4MK-Ee2ePvNdNGTLsQ" source="codegen">
+                <details xmi:id="_cV8B4cK-Ee2ePvNdNGTLsQ" key="codegenDirectory" value="/Insulin_app/app/src/test/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedComment xmi:id="_ciJR4MK-Ee2ePvNdNGTLsQ">
+              <body>Example local unit test, which will execute on the development machine (host).
+ *
+@see &lt;a href=&quot;http://d.android.com/tools/testing&quot;>Testing documentation&lt;/a></body>
+            </ownedComment>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch7PcMK-Ee2ePvNdNGTLsQ" name="addition_isCorrect" specification="_cV9QAMK-Ee2ePvNdNGTLsQ">
+              <language>java</language>
+              <body>assertEquals(4, 2 + 2);
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cV9QAMK-Ee2ePvNdNGTLsQ" name="addition_isCorrect" method="_ch7PcMK-Ee2ePvNdNGTLsQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cWATUMK-Ee2ePvNdNGTLsQ" name="BuildConfig" isLeaf="true">
+            <eAnnotations xmi:id="_cWBhcMK-Ee2ePvNdNGTLsQ" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cWBhccK-Ee2ePvNdNGTLsQ" source="codegen">
+                <details xmi:id="_cWBhcsK-Ee2ePvNdNGTLsQ" key="codegenDirectory" value="/Insulin_app/app/build/generated/source/buildConfig/debug"/>
+              </contents>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_cgP0cMK-Ee2ePvNdNGTLsQ" name="DEBUG" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_cgP0ccK-Ee2ePvNdNGTLsQ" value="Boolean.parseBoolean(&quot;true&quot;)"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cgQbgMK-Ee2ePvNdNGTLsQ" name="APPLICATION_ID" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_cgRCkMK-Ee2ePvNdNGTLsQ" value="&quot;com.example.insulin_app&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cgRCkcK-Ee2ePvNdNGTLsQ" name="BUILD_TYPE" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_cgRpoMK-Ee2ePvNdNGTLsQ" value="&quot;debug&quot;"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cgS3wMK-Ee2ePvNdNGTLsQ" name="VERSION_CODE" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_cgS3wcK-Ee2ePvNdNGTLsQ" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_cgS3wsK-Ee2ePvNdNGTLsQ" name="VERSION_NAME" isLeaf="true" isStatic="true" isReadOnly="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_cgUF4MK-Ee2ePvNdNGTLsQ" value="&quot;1.0&quot;"/>
+            </ownedAttribute>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cWFy4MK-Ee2ePvNdNGTLsQ" name="ExampleInstrumentedTest">
+            <eAnnotations xmi:id="_cWHBAMK-Ee2ePvNdNGTLsQ" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cWHBAcK-Ee2ePvNdNGTLsQ" source="codegen">
+                <details xmi:id="_cWHBAsK-Ee2ePvNdNGTLsQ" key="codegenDirectory" value="/Insulin_app/app/src/androidTest/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch72gMK-Ee2ePvNdNGTLsQ" name="useAppContext" specification="_cWIPIMK-Ee2ePvNdNGTLsQ">
+              <language>java</language>
+              <body>Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
+     assertEquals(&quot;com.example.insulin_app&quot;, appContext.getPackageName());
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cWIPIMK-Ee2ePvNdNGTLsQ" name="useAppContext" method="_ch72gMK-Ee2ePvNdNGTLsQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cWL5gMK-Ee2ePvNdNGTLsQ" name="CalendarActivity">
+            <eAnnotations xmi:id="_cWMgkMK-Ee2ePvNdNGTLsQ" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cWMgkcK-Ee2ePvNdNGTLsQ" source="codegen">
+                <details xmi:id="_cWMgksK-Ee2ePvNdNGTLsQ" key="codegenDirectory" value="/Insulin_app/app/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_ce8M4MK-Ee2ePvNdNGTLsQ" general="_cc5lgMK-Ee2ePvNdNGTLsQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch8dkMK-Ee2ePvNdNGTLsQ" name="onCreate" specification="_ce4igMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ch8dkcK-Ee2ePvNdNGTLsQ" name="savedInstanceState" type="_cc8o0cK-Ee2ePvNdNGTLsQ"/>
+              <language>java</language>
+              <body>super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_calendar);
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch9EoMK-Ee2ePvNdNGTLsQ" name="goHome" specification="_ce7l0MK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ch9EocK-Ee2ePvNdNGTLsQ" name="v" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+              <language>java</language>
+              <body>Intent intent = new Intent(this, MainActivity.class);
+     startActivity(intent);
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_ce4igMK-Ee2ePvNdNGTLsQ" name="onCreate" visibility="protected" method="_ch8dkMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ce4igcK-Ee2ePvNdNGTLsQ" name="savedInstanceState" type="_cc8o0cK-Ee2ePvNdNGTLsQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_ce7l0MK-Ee2ePvNdNGTLsQ" name="goHome" method="_ch9EoMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ce7l0cK-Ee2ePvNdNGTLsQ" name="v" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cWTOQMK-Ee2ePvNdNGTLsQ" name="FirstActivity">
+            <eAnnotations xmi:id="_cWUcYMK-Ee2ePvNdNGTLsQ" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cWUcYcK-Ee2ePvNdNGTLsQ" source="codegen">
+                <details xmi:id="_cWUcYsK-Ee2ePvNdNGTLsQ" key="codegenDirectory" value="/Insulin_app/app/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_ce_QMMK-Ee2ePvNdNGTLsQ" general="_cc5lgMK-Ee2ePvNdNGTLsQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch9EosK-Ee2ePvNdNGTLsQ" name="onCreate" specification="_ce9bAMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ch9rsMK-Ee2ePvNdNGTLsQ" name="savedInstanceState" type="_cc8o0cK-Ee2ePvNdNGTLsQ"/>
+              <language>java</language>
+              <body>super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_first);
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_ce9bAMK-Ee2ePvNdNGTLsQ" name="onCreate" visibility="protected" method="_ch9EosK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ce9bAcK-Ee2ePvNdNGTLsQ" name="savedInstanceState" type="_cc8o0cK-Ee2ePvNdNGTLsQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cWXfsMK-Ee2ePvNdNGTLsQ" name="MainActivity">
+            <eAnnotations xmi:id="_cWajAMK-Ee2ePvNdNGTLsQ" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_cWdmUMK-Ee2ePvNdNGTLsQ" source="codegen">
+                <details xmi:id="_cWdmUcK-Ee2ePvNdNGTLsQ" key="codegenDirectory" value="/Insulin_app/app/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_cfDhoMK-Ee2ePvNdNGTLsQ" general="_cc5lgMK-Ee2ePvNdNGTLsQ"/>
+            <ownedAttribute xmi:id="_cgUF4cK-Ee2ePvNdNGTLsQ" name="editTextHeight" visibility="private" type="_cdCIYMK-Ee2ePvNdNGTLsQ" association="_cixkAcK-Ee2ePvNdNGTLsQ"/>
+            <ownedAttribute xmi:id="_cgXJMMK-Ee2ePvNdNGTLsQ" name="weight" visibility="private">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_ciLHEMK-Ee2ePvNdNGTLsQ" name="editTextWeight" visibility="private" type="_cdCIYMK-Ee2ePvNdNGTLsQ" association="_cjMawcK-Ee2ePvNdNGTLsQ"/>
+            <ownedAttribute xmi:id="_ciMVMcK-Ee2ePvNdNGTLsQ" name="editTextAge" visibility="private" type="_cdCIYMK-Ee2ePvNdNGTLsQ" association="_cjOP8MK-Ee2ePvNdNGTLsQ"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch-SwMK-Ee2ePvNdNGTLsQ" name="onCreate" specification="_cfAeUMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ch-SwcK-Ee2ePvNdNGTLsQ" name="savedInstanceState" type="_cc8o0cK-Ee2ePvNdNGTLsQ"/>
+              <language>java</language>
+              <body>super.onCreate(savedInstanceState);
+     setContentView(R.layout.activity_main);
+
+     editTextHeight = findViewById(R.id.editTextHeight);
+     editTextWeight = findViewById(R.id.editTextWeight);
+     editTextAge = findViewById(R.id.editTextAge);
+
+     Button buttonCalculate = findViewById(R.id.buttonCalculate);
+     buttonCalculate.setOnClickListener(new View.OnClickListener() {
+         @Override
+         public void onClick(View v) {
+             calculateInsulinDose();
+         }
+     });
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch-50MK-Ee2ePvNdNGTLsQ" name="myCalendar" specification="_cfCTgsK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ch-50cK-Ee2ePvNdNGTLsQ" name="v" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+              <language>java</language>
+              <body>Intent intent = new Intent(this, CalendarActivity.class);
+     startActivity(intent);
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ch_g4MK-Ee2ePvNdNGTLsQ" name="calculateInsulinDose" specification="_cWgCkMK-Ee2ePvNdNGTLsQ">
+              <language>java</language>
+              <body>// Отримання даних користувача
+     int height = Integer.parseInt(editTextHeight.getText().toString());
+     weight = Integer.parseInt(editTextWeight.getText().toString());
+     int age = Integer.parseInt(editTextAge.getText().toString());
+
+     // Розрахунок добової норми інсуліну
+     double insulinNorm = calculateInsulinNorm(weight);
+
+     // Розрахунок долі інсуліну довгої та короткої дії
+     double longInsulinRatio = calculateLongInsulinRatio();
+     double shortInsulinRatio = 1 - longInsulinRatio;
+
+     // Розрахунок ранкової та вечірньої дози інсуліну довгої дії
+     double morningDose = calculateMorningLongDose(longInsulinRatio);
+     double eveningDose = calculateEveningLongDose(longInsulinRatio);
+
+     // Виведення результатів на екран
+     String resultText = &quot;Добова норма інсуліну: &quot; + insulinNorm + &quot; од.\n&quot;
+             + &quot;Доля інсуліну довгої дії: &quot; + longInsulinRatio + &quot;\n&quot;
+             + &quot;Доля інсуліну короткої дії: &quot; + shortInsulinRatio + &quot;\n&quot;
+             + &quot;Ранкова доза інсуліну довгої дії: &quot; + morningDose + &quot; од.\n&quot;
+             + &quot;Вечірня доза інсуліну довгої дії: &quot; + eveningDose + &quot; од.\n&quot;;
+     Toast.makeText(this, resultText, Toast.LENGTH_LONG).show();
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ciAH8MK-Ee2ePvNdNGTLsQ" name="calculateMorningLongDose" specification="_cWhQsMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ciAH8cK-Ee2ePvNdNGTLsQ" name="longInsulinRatio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ciAH8sK-Ee2ePvNdNGTLsQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>// Ранкова доза інсуліну довгої дії обчислюється як 2/3 від добової норми інсуліну довгої дії
+     return calculateLongInsulinRatio() * 0.67;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ciAvAMK-Ee2ePvNdNGTLsQ" name="calculateEveningLongDose" specification="_cWjF4MK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ciAvAcK-Ee2ePvNdNGTLsQ" name="longInsulinRatio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ciAvAsK-Ee2ePvNdNGTLsQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>// Вечірня доза інсуліну довгої дії обчислюється як 1/3 від добової норми інсуліну довгої дії
+     return calculateLongInsulinRatio() * 0.33;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ciAvA8K-Ee2ePvNdNGTLsQ" name="calculateInsulinNorm" specification="_cWk7EMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ciAvBMK-Ee2ePvNdNGTLsQ" name="weight">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_ciAvBcK-Ee2ePvNdNGTLsQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>// Формула для розрахунку добової норми інсуліну
+     return weight * 0.5;
+ </body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ciBWEMK-Ee2ePvNdNGTLsQ" name="calculateLongInsulinRatio" specification="_cWmwQMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_ciBWEcK-Ee2ePvNdNGTLsQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>// Зазвичай доля інсуліну довгої дії становить 40-50% від загальної добової потреби в інсуліні
+     return calculateInsulinNorm(weight) * 0.45;
+ </body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_cWgCkMK-Ee2ePvNdNGTLsQ" name="calculateInsulinDose" visibility="private" method="_ch_g4MK-Ee2ePvNdNGTLsQ"/>
+            <ownedOperation xmi:id="_cWhQsMK-Ee2ePvNdNGTLsQ" name="calculateMorningLongDose" visibility="private" method="_ciAH8MK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_cWh3wMK-Ee2ePvNdNGTLsQ" name="longInsulinRatio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_cWie0MK-Ee2ePvNdNGTLsQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cWjF4MK-Ee2ePvNdNGTLsQ" name="calculateEveningLongDose" visibility="private" method="_ciAvAMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_cWjs8MK-Ee2ePvNdNGTLsQ" name="longInsulinRatio">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_cWjs8cK-Ee2ePvNdNGTLsQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cWk7EMK-Ee2ePvNdNGTLsQ" name="calculateInsulinNorm" visibility="private" method="_ciAvA8K-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_cWk7EcK-Ee2ePvNdNGTLsQ" name="weight">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_cWliIMK-Ee2ePvNdNGTLsQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cWmwQMK-Ee2ePvNdNGTLsQ" name="calculateLongInsulinRatio" visibility="private" method="_ciBWEMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_cWmwQcK-Ee2ePvNdNGTLsQ" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cfAeUMK-Ee2ePvNdNGTLsQ" name="onCreate" visibility="protected" method="_ch-SwMK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_cfBFYMK-Ee2ePvNdNGTLsQ" name="savedInstanceState" type="_cc8o0cK-Ee2ePvNdNGTLsQ"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_cfCTgsK-Ee2ePvNdNGTLsQ" name="myCalendar" method="_ch-50MK-Ee2ePvNdNGTLsQ">
+              <ownedParameter xmi:id="_cfC6kMK-Ee2ePvNdNGTLsQ" name="v" type="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_cb_mkMK-Ee2ePvNdNGTLsQ" name="R"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_cixkAcK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cixkAsK-Ee2ePvNdNGTLsQ _cgUF4cK-Ee2ePvNdNGTLsQ">
+            <ownedEnd xmi:id="_cixkAsK-Ee2ePvNdNGTLsQ" name="" type="_cWXfsMK-Ee2ePvNdNGTLsQ" association="_cixkAcK-Ee2ePvNdNGTLsQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_cjMawcK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cjMawsK-Ee2ePvNdNGTLsQ _ciLHEMK-Ee2ePvNdNGTLsQ">
+            <ownedEnd xmi:id="_cjMawsK-Ee2ePvNdNGTLsQ" name="" type="_cWXfsMK-Ee2ePvNdNGTLsQ" association="_cjMawcK-Ee2ePvNdNGTLsQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_cjOP8MK-Ee2ePvNdNGTLsQ" name="" memberEnd="_cjOP8cK-Ee2ePvNdNGTLsQ _ciMVMcK-Ee2ePvNdNGTLsQ">
+            <ownedEnd xmi:id="_cjOP8cK-Ee2ePvNdNGTLsQ" name="" type="_cWXfsMK-Ee2ePvNdNGTLsQ" association="_cjOP8MK-Ee2ePvNdNGTLsQ"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cRUnoMK-Ee2ePvNdNGTLsQ" name="android">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cRUnocK-Ee2ePvNdNGTLsQ" name="view">
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbl98MK-Ee2ePvNdNGTLsQ" name="LayoutInflater"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbq2cMK-Ee2ePvNdNGTLsQ" name="View"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbtSsMK-Ee2ePvNdNGTLsQ" name="ViewGroup"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cRWc0MK-Ee2ePvNdNGTLsQ" name="widget">
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbvH4cK-Ee2ePvNdNGTLsQ" name="Button"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbxkIMK-Ee2ePvNdNGTLsQ" name="CalendarView"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ccZPMMK-Ee2ePvNdNGTLsQ" name="TextView"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cdCIYMK-Ee2ePvNdNGTLsQ" name="EditText"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cdDWgcK-Ee2ePvNdNGTLsQ" name="Toast"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cdJdIMK-Ee2ePvNdNGTLsQ" name="RadioButton"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cSgTYMK-Ee2ePvNdNGTLsQ" name="content">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ccyQwMK-Ee2ePvNdNGTLsQ" name="Context"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cc7asMK-Ee2ePvNdNGTLsQ" name="Intent"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cSrSgMK-Ee2ePvNdNGTLsQ" name="os">
+        <packagedElement xmi:type="uml:Class" xmi:id="_cc8o0cK-Ee2ePvNdNGTLsQ" name="Bundle"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cRXD4MK-Ee2ePvNdNGTLsQ" name="androidx">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cRXq8MK-Ee2ePvNdNGTLsQ" name="annotation">
+        <packagedElement xmi:type="uml:Class" xmi:id="_cbzZUcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cb2coMK-Ee2ePvNdNGTLsQ" name="Nullable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cRYSAMK-Ee2ePvNdNGTLsQ" name="constraintlayout">
+        <packagedElement xmi:type="uml:Package" xmi:id="_cRYSAcK-Ee2ePvNdNGTLsQ" name="widget">
+          <packagedElement xmi:type="uml:Class" xmi:id="_cb4R0cK-Ee2ePvNdNGTLsQ" name="ConstraintLayout"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cRY5EMK-Ee2ePvNdNGTLsQ" name="viewbinding">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_cb6uEcK-Ee2ePvNdNGTLsQ" name="ViewBinding"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cb9KUMK-Ee2ePvNdNGTLsQ" name="ViewBindings"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cSg6cMK-Ee2ePvNdNGTLsQ" name="test">
+        <packagedElement xmi:type="uml:Package" xmi:id="_cSg6ccK-Ee2ePvNdNGTLsQ" name="platform">
+          <packagedElement xmi:type="uml:Package" xmi:id="_cSg6csK-Ee2ePvNdNGTLsQ" name="app">
+            <packagedElement xmi:type="uml:Class" xmi:id="_cc0F8MK-Ee2ePvNdNGTLsQ" name="InstrumentationRegistry"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_cShhgMK-Ee2ePvNdNGTLsQ" name="ext">
+          <packagedElement xmi:type="uml:Package" xmi:id="_cSiIkMK-Ee2ePvNdNGTLsQ" name="junit">
+            <packagedElement xmi:type="uml:Package" xmi:id="_cSiIkcK-Ee2ePvNdNGTLsQ" name="runners">
+              <packagedElement xmi:type="uml:Class" xmi:id="_cc17IMK-Ee2ePvNdNGTLsQ" name="AndroidJUnit4"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cSqEYMK-Ee2ePvNdNGTLsQ" name="appcompat">
+        <packagedElement xmi:type="uml:Package" xmi:id="_cSqrcMK-Ee2ePvNdNGTLsQ" name="app">
+          <packagedElement xmi:type="uml:Class" xmi:id="_cc5lgMK-Ee2ePvNdNGTLsQ" name="AppCompatActivity"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cRaHMMK-Ee2ePvNdNGTLsQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cRauQMK-Ee2ePvNdNGTLsQ" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ccBbwcK-Ee2ePvNdNGTLsQ" name="NullPointerException"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ccDQ8cK-Ee2ePvNdNGTLsQ" name="Override"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_ccIJcMK-Ee2ePvNdNGTLsQ" name="String"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_cSaMwMK-Ee2ePvNdNGTLsQ" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_cSaz0MK-Ee2ePvNdNGTLsQ" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_cSjWsMK-Ee2ePvNdNGTLsQ" name="runner">
+          <packagedElement xmi:type="uml:Class" xmi:id="_cc3wUMK-Ee2ePvNdNGTLsQ" name="RunWith"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cctYQMK-Ee2ePvNdNGTLsQ" name="Test"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ccvNccK-Ee2ePvNdNGTLsQ" name="Assert"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_b1zwUMK-Ee2ePvNdNGTLsQ">
+      <eAnnotations xmi:id="_b10XYMK-Ee2ePvNdNGTLsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+    <profileApplication xmi:id="_5i0LwMK-Ee2ePvNdNGTLsQ">
+      <eAnnotations xmi:id="_5jC1QMK-Ee2ePvNdNGTLsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCHITECTUREREVIEW_PROFILES/ArchitectureReview.profile.uml#_ypx9siN3EeK_4-5pMoCxQg"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://ARCHITECTUREREVIEW_PROFILES/ArchitectureReview.profile.uml#_qTOicCN3EeK_4-5pMoCxQg"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_b10-cMK-Ee2ePvNdNGTLsQ" base_Package="_bksLIMK-Ee2ePvNdNGTLsQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cUyyYMK-Ee2ePvNdNGTLsQ" base_Element="_cUtS0MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cU11sMK-Ee2ePvNdNGTLsQ" base_Element="_cUtS0MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cU2cwMK-Ee2ePvNdNGTLsQ" name="Override"/>
+    <annotations xmi:id="_cU3D0MK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cVjnYMK-Ee2ePvNdNGTLsQ" base_Element="_cViZQMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cVk1gMK-Ee2ePvNdNGTLsQ" base_Element="_cViZQMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cVlckMK-Ee2ePvNdNGTLsQ" name="Override"/>
+    <annotations xmi:id="_cVlckcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cV-eIMK-Ee2ePvNdNGTLsQ" base_Element="_cV9QAMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cV_sQMK-Ee2ePvNdNGTLsQ" base_Element="_cV9QAMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cV_sQcK-Ee2ePvNdNGTLsQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cWHoEMK-Ee2ePvNdNGTLsQ" base_Element="_cWFy4MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cWJdQMK-Ee2ePvNdNGTLsQ" base_Element="_cWIPIMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cWJdQcK-Ee2ePvNdNGTLsQ" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cWKrYMK-Ee2ePvNdNGTLsQ" base_Element="_cWFy4MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cWKrYcK-Ee2ePvNdNGTLsQ" name="RunWith">
+      <annotationParameters xmi:id="_cWKrYsK-Ee2ePvNdNGTLsQ" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_ciJ48MK-Ee2ePvNdNGTLsQ" value="AndroidJUnit4.class"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cW65UMK-Ee2ePvNdNGTLsQ" base_Element="_cW5EIMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cW8HcMK-Ee2ePvNdNGTLsQ" base_Element="_cW5EIMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cW8HccK-Ee2ePvNdNGTLsQ" name="Override"/>
+    <annotations xmi:id="_cW8ugMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_cbpoUMK-Ee2ePvNdNGTLsQ" base_Element="_cbl98MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cbsroMK-Ee2ePvNdNGTLsQ" base_Element="_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cbvH4MK-Ee2ePvNdNGTLsQ" base_Element="_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cbw9EMK-Ee2ePvNdNGTLsQ" base_Element="_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cbzZUMK-Ee2ePvNdNGTLsQ" base_Element="_cbxkIMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cb11kMK-Ee2ePvNdNGTLsQ" base_Element="_cbzZUcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cb4R0MK-Ee2ePvNdNGTLsQ" base_Element="_cb2coMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cb6uEMK-Ee2ePvNdNGTLsQ" base_Element="_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cb8jQMK-Ee2ePvNdNGTLsQ" base_Element="_cb6uEcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cb-_gMK-Ee2ePvNdNGTLsQ" base_Element="_cb9KUMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ccBbwMK-Ee2ePvNdNGTLsQ" base_Element="_cb_mkMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ccDQ8MK-Ee2ePvNdNGTLsQ" base_Element="_ccBbwcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ccHiYMK-Ee2ePvNdNGTLsQ" base_Element="_ccDQ8cK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ccKlsMK-Ee2ePvNdNGTLsQ" base_Element="_ccIJcMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ccbEYMK-Ee2ePvNdNGTLsQ" base_Element="_ccZPMMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ccvNcMK-Ee2ePvNdNGTLsQ" base_Element="_cctYQMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ccxpsMK-Ee2ePvNdNGTLsQ" base_Element="_ccvNccK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ccze4MK-Ee2ePvNdNGTLsQ" base_Element="_ccyQwMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cc1UEMK-Ee2ePvNdNGTLsQ" base_Element="_cc0F8MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cc3JQMK-Ee2ePvNdNGTLsQ" base_Element="_cc17IMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cc4-cMK-Ee2ePvNdNGTLsQ" base_Element="_cc3wUMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cc6zoMK-Ee2ePvNdNGTLsQ" base_Element="_cc5lgMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cc8o0MK-Ee2ePvNdNGTLsQ" base_Element="_cc7asMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cc928MK-Ee2ePvNdNGTLsQ" base_Element="_cc8o0cK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cdDWgMK-Ee2ePvNdNGTLsQ" base_Element="_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cdFLsMK-Ee2ePvNdNGTLsQ" base_Element="_cdDWgcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cdKrQMK-Ee2ePvNdNGTLsQ" base_Element="_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ceHGcMK-Ee2ePvNdNGTLsQ" base_Element="_ceEDIMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ceIUkMK-Ee2ePvNdNGTLsQ" base_Element="_ceEDIcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceIUkcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ceI7oMK-Ee2ePvNdNGTLsQ" base_Element="_ceEqMMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceJisMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ceKJwMK-Ee2ePvNdNGTLsQ" base_Element="_ceFRQMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceKJwcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ceKw0MK-Ee2ePvNdNGTLsQ" base_Element="_ceFRQcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceKw0cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ceNNEMK-Ee2ePvNdNGTLsQ" base_Element="_ceL-8MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ceN0IMK-Ee2ePvNdNGTLsQ" base_Element="_ceL-8cK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceN0IcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cePCQMK-Ee2ePvNdNGTLsQ" base_Element="_ceL-8MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cePCQcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ceSFkMK-Ee2ePvNdNGTLsQ" base_Element="_ceQQYMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ceTTsMK-Ee2ePvNdNGTLsQ" base_Element="_ceQQYcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceTTscK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ceUh0MK-Ee2ePvNdNGTLsQ" base_Element="_ceQ3cMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceUh0cK-Ee2ePvNdNGTLsQ" name="Nullable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ceVI4MK-Ee2ePvNdNGTLsQ" base_Element="_ceQQYMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceVv8MK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ceYMMMK-Ee2ePvNdNGTLsQ" base_Element="_ceWXAMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ceYzQMK-Ee2ePvNdNGTLsQ" base_Element="_ceWXAcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceYzQcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ceaBYMK-Ee2ePvNdNGTLsQ" base_Element="_ceWXAMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceaBYcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ceh9MMK-Ee2ePvNdNGTLsQ" base_Element="_cee54MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cejLUMK-Ee2ePvNdNGTLsQ" base_Element="_cee54cK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cejLUcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cekZcMK-Ee2ePvNdNGTLsQ" base_Element="_cefg8MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cekZccK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_celAgMK-Ee2ePvNdNGTLsQ" base_Element="_cefg8cK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_celAgcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cemOoMK-Ee2ePvNdNGTLsQ" base_Element="_cefg8sK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cemOocK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cep5AMK-Ee2ePvNdNGTLsQ" base_Element="_ceoD0MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ceqgEMK-Ee2ePvNdNGTLsQ" base_Element="_ceoq4MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ceqgEcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ceruMMK-Ee2ePvNdNGTLsQ" base_Element="_ceoD0MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cesVQMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cevYkMK-Ee2ePvNdNGTLsQ" base_Element="_cetjYMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cev_oMK-Ee2ePvNdNGTLsQ" base_Element="_cetjYcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cev_ocK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cewmsMK-Ee2ePvNdNGTLsQ" base_Element="_cetjYsK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cewmscK-Ee2ePvNdNGTLsQ" name="Nullable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cex00MK-Ee2ePvNdNGTLsQ" base_Element="_cetjYMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cex00cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cezqAMK-Ee2ePvNdNGTLsQ" base_Element="_ceyb4MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ce0REMK-Ee2ePvNdNGTLsQ" base_Element="_ceyb4cK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ce04IMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_ce04IcK-Ee2ePvNdNGTLsQ" base_Element="_ceyb4MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ce1fMMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ce5woMK-Ee2ePvNdNGTLsQ" base_Element="_ce4igMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ce6XsMK-Ee2ePvNdNGTLsQ" base_Element="_ce4igMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ce6XscK-Ee2ePvNdNGTLsQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ce-CEMK-Ee2ePvNdNGTLsQ" base_Element="_ce9bAMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_ce-pIMK-Ee2ePvNdNGTLsQ" base_Element="_ce9bAMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_ce-pIcK-Ee2ePvNdNGTLsQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cfBscMK-Ee2ePvNdNGTLsQ" base_Element="_cfAeUMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cfCTgMK-Ee2ePvNdNGTLsQ" base_Element="_cfAeUMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfCTgcK-Ee2ePvNdNGTLsQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cfSLIMK-Ee2ePvNdNGTLsQ" base_Element="_cfPH0MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cfSyMMK-Ee2ePvNdNGTLsQ" base_Element="_cfPH0cK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfSyMcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfTZQMK-Ee2ePvNdNGTLsQ" base_Element="_cfPH0sK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfUAUMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfUnYMK-Ee2ePvNdNGTLsQ" base_Element="_cfPu4MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfUnYcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfVOcMK-Ee2ePvNdNGTLsQ" base_Element="_cfPu4cK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfVOccK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfV1gMK-Ee2ePvNdNGTLsQ" base_Element="_cfPu4sK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfWckMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfXDoMK-Ee2ePvNdNGTLsQ" base_Element="_cfPu48K-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfXDocK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfXqsMK-Ee2ePvNdNGTLsQ" base_Element="_cfQV8MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfXqscK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfYRwMK-Ee2ePvNdNGTLsQ" base_Element="_cfQV8cK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfY40MK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfZf4MK-Ee2ePvNdNGTLsQ" base_Element="_cfQV8sK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfZf4cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfaG8MK-Ee2ePvNdNGTLsQ" base_Element="_cfQV88K-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfaG8cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfauAMK-Ee2ePvNdNGTLsQ" base_Element="_cfQV9MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfauAcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfbVEMK-Ee2ePvNdNGTLsQ" base_Element="_cfQ9AMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfb8IMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfcjMMK-Ee2ePvNdNGTLsQ" base_Element="_cfQ9AcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfcjMcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfdKQMK-Ee2ePvNdNGTLsQ" base_Element="_cfQ9AsK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfdKQcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cfhbsMK-Ee2ePvNdNGTLsQ" base_Element="_cfgNkMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cfiCwMK-Ee2ePvNdNGTLsQ" base_Element="_cfgNkcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfiCwcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfm7QMK-Ee2ePvNdNGTLsQ" base_Element="_cfgNkMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfniUMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cfsa0MK-Ee2ePvNdNGTLsQ" base_Element="_cfowcMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cfto8MK-Ee2ePvNdNGTLsQ" base_Element="_cfp-kMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfto8cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfuQAMK-Ee2ePvNdNGTLsQ" base_Element="_cfqloMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfuQAcK-Ee2ePvNdNGTLsQ" name="Nullable"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfveIMK-Ee2ePvNdNGTLsQ" base_Element="_cfowcMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfveIcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cfxTUMK-Ee2ePvNdNGTLsQ" base_Element="_cfwFMMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cfx6YMK-Ee2ePvNdNGTLsQ" base_Element="_cfwFMcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfyhcMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_cfzIgMK-Ee2ePvNdNGTLsQ" base_Element="_cfwFMMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cfzIgcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cf_80MK-Ee2ePvNdNGTLsQ" base_Element="_cf-usMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgBK8MK-Ee2ePvNdNGTLsQ" base_Element="_cf-usMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgBK8cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgCZEMK-Ee2ePvNdNGTLsQ" base_Element="_cgByAMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgDAIMK-Ee2ePvNdNGTLsQ" base_Element="_cgByAMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgDAIcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgEOQMK-Ee2ePvNdNGTLsQ" base_Element="_cgDnMMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgE1UMK-Ee2ePvNdNGTLsQ" base_Element="_cgDnMMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgE1UcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgFcYMK-Ee2ePvNdNGTLsQ" base_Element="_cgE1UsK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgGDcMK-Ee2ePvNdNGTLsQ" base_Element="_cgE1UsK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgGDccK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgJGwMK-Ee2ePvNdNGTLsQ" base_Element="_cgIfsMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgJt0MK-Ee2ePvNdNGTLsQ" base_Element="_cgIfsMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgJt0cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgK78MK-Ee2ePvNdNGTLsQ" base_Element="_cgKU4MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgK78cK-Ee2ePvNdNGTLsQ" base_Element="_cgKU4MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgLjAMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgMKEcK-Ee2ePvNdNGTLsQ" base_Element="_cgMKEMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgMxIMK-Ee2ePvNdNGTLsQ" base_Element="_cgMKEMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgMxIcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgN_QMK-Ee2ePvNdNGTLsQ" base_Element="_cgNYMMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgOmUMK-Ee2ePvNdNGTLsQ" base_Element="_cgNYMMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgOmUcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:MultiDeclaration xmi:id="_cgVUAMK-Ee2ePvNdNGTLsQ" base_Property="_cgUF4cK-Ee2ePvNdNGTLsQ" siblings="_ciLHEMK-Ee2ePvNdNGTLsQ _ciMVMcK-Ee2ePvNdNGTLsQ" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgV7EMK-Ee2ePvNdNGTLsQ" base_Element="_cgUF4cK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgXwQMK-Ee2ePvNdNGTLsQ" base_Element="_cgXJMMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgaMgMK-Ee2ePvNdNGTLsQ" base_Element="_cgZlcMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgazkMK-Ee2ePvNdNGTLsQ" base_Element="_cgZlcMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgbaoMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgcowMK-Ee2ePvNdNGTLsQ" base_Element="_cgbaocK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgdP0MK-Ee2ePvNdNGTLsQ" base_Element="_cgbaocK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgdP0cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cged8MK-Ee2ePvNdNGTLsQ" base_Element="_cgd24MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgfFAMK-Ee2ePvNdNGTLsQ" base_Element="_cgd24MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgfFAcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cggTIMK-Ee2ePvNdNGTLsQ" base_Element="_cgfsEMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgg6MMK-Ee2ePvNdNGTLsQ" base_Element="_cgfsEMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgg6McK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgiIUMK-Ee2ePvNdNGTLsQ" base_Element="_cghhQMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgivYMK-Ee2ePvNdNGTLsQ" base_Element="_cghhQMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgivYcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgkkkMK-Ee2ePvNdNGTLsQ" base_Element="_cgjWcMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cglLoMK-Ee2ePvNdNGTLsQ" base_Element="_cgjWcMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cglLocK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgnA0MK-Ee2ePvNdNGTLsQ" base_Element="_cglysMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgnn4MK-Ee2ePvNdNGTLsQ" base_Element="_cglysMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgnn4cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgoO8MK-Ee2ePvNdNGTLsQ" base_Element="_cgnn4sK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgo2AMK-Ee2ePvNdNGTLsQ" base_Element="_cgnn4sK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgpdEMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgqrMMK-Ee2ePvNdNGTLsQ" base_Element="_cgpdEcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgr5UMK-Ee2ePvNdNGTLsQ" base_Element="_cgpdEcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgr5UcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgtHcMK-Ee2ePvNdNGTLsQ" base_Element="_cgsgYMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgtugMK-Ee2ePvNdNGTLsQ" base_Element="_cgsgYMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgtugcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgvjsMK-Ee2ePvNdNGTLsQ" base_Element="_cgu8oMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgvjscK-Ee2ePvNdNGTLsQ" base_Element="_cgu8oMK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgwKwMK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgwx0MK-Ee2ePvNdNGTLsQ" base_Element="_cgwKwcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgxY4MK-Ee2ePvNdNGTLsQ" base_Element="_cgwKwcK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgxY4cK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgynAMK-Ee2ePvNdNGTLsQ" base_Element="_cgx_8MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cgzOEMK-Ee2ePvNdNGTLsQ" base_Element="_cgx_8MK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cgzOEcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cgz1IMK-Ee2ePvNdNGTLsQ" base_Element="_cgzOEsK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Annotations xmi:id="_cg1DQMK-Ee2ePvNdNGTLsQ" base_Element="_cgzOEsK-Ee2ePvNdNGTLsQ">
+    <annotations xmi:id="_cg1DQcK-Ee2ePvNdNGTLsQ" name="NonNull"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ciLHEcK-Ee2ePvNdNGTLsQ" base_Property="_ciLHEMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ciMVMMK-Ee2ePvNdNGTLsQ" base_Element="_ciLHEMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_ciM8QMK-Ee2ePvNdNGTLsQ" base_Property="_ciMVMcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ciNjUMK-Ee2ePvNdNGTLsQ" base_Element="_ciMVMcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cikIoMK-Ee2ePvNdNGTLsQ" base_Element="_ciiTcMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cil90MK-Ee2ePvNdNGTLsQ" base_Element="_cikIocK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cinzAMK-Ee2ePvNdNGTLsQ" base_Element="_cil90cK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cipBIMK-Ee2ePvNdNGTLsQ" base_Element="_cinzAcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ciq2UMK-Ee2ePvNdNGTLsQ" base_Element="_cipoMMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cisrgMK-Ee2ePvNdNGTLsQ" base_Element="_cirdYMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cit5oMK-Ee2ePvNdNGTLsQ" base_Element="_cisrgcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cixkAMK-Ee2ePvNdNGTLsQ" base_Element="_ciugsMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cizZMMK-Ee2ePvNdNGTLsQ" base_Element="_cixkAcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ci1OYMK-Ee2ePvNdNGTLsQ" base_Element="_cizZMcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ci3DkMK-Ee2ePvNdNGTLsQ" base_Element="_ci11cMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ci44wMK-Ee2ePvNdNGTLsQ" base_Element="_ci3qoMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ci6G4MK-Ee2ePvNdNGTLsQ" base_Element="_ci44wcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ci78EMK-Ee2ePvNdNGTLsQ" base_Element="_ci6t8MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_ci-YUMK-Ee2ePvNdNGTLsQ" base_Element="_ci78EcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjANgMK-Ee2ePvNdNGTLsQ" base_Element="_ci-_YMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjCpwMK-Ee2ePvNdNGTLsQ" base_Element="_cjA0kMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjEe8MK-Ee2ePvNdNGTLsQ" base_Element="_cjDQ0MK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjFtEMK-Ee2ePvNdNGTLsQ" base_Element="_cjEe8cK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjG7MMK-Ee2ePvNdNGTLsQ" base_Element="_cjFtEcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjIwYMK-Ee2ePvNdNGTLsQ" base_Element="_cjHiQMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjKlkMK-Ee2ePvNdNGTLsQ" base_Element="_cjJXcMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjMawMK-Ee2ePvNdNGTLsQ" base_Element="_cjLMoMK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjNo4MK-Ee2ePvNdNGTLsQ" base_Element="_cjMawcK-Ee2ePvNdNGTLsQ"/>
+  <UMLLabProfile:Reference xmi:id="_cjPeEMK-Ee2ePvNdNGTLsQ" base_Element="_cjOP8MK-Ee2ePvNdNGTLsQ"/>
+</xmi:XMI>

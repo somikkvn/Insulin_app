@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_6YyVAMK_Ee2ePvNdNGTLsQ">
+  <modelElement href="Insulin_app.uml#_cR-u8MK-Ee2ePvNdNGTLsQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6suksMK_Ee2ePvNdNGTLsQ" source="_6s91ScK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_ciiTcMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vhaAMK_Ee2ePvNdNGTLsQ" position="110.0,110.0"/>
+    <stereotypes xmi:id="_6svLwMK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cikIoMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6svLwcK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6svy0MK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_ciiTccK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6svy0cK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6svy0sK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6svy08K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="rootView" navigable="true">
+      <modelElement href="Insulin_app.uml#_cf-usMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WkUxgMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cf_80MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WkeigMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgBK8MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6svy1MK_Ee2ePvNdNGTLsQ" label="-"/>
+      <cardinality xmi:id="_6svy1cK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6s48wMK_Ee2ePvNdNGTLsQ" source="_6s91ScK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cikIocK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6viBEMK_Ee2ePvNdNGTLsQ" position="130.0,130.0"/>
+    <stereotypes xmi:id="_6s48wcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cil90MK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6s48wsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6s48w8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cikIosK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6s48xMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s5j0MK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6s5j0cK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="button" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgByAMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WklQMMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgCZEMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WklQMcMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgDAIMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6s5j0sK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s6K4MK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6s7ZAMK_Ee2ePvNdNGTLsQ" source="_6s91ScK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cil90cK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vioIMK_Ee2ePvNdNGTLsQ" position="150.0,150.0"/>
+    <stereotypes xmi:id="_6s7ZAcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cinzAMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6s7ZAsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6s7ZA8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cil90sK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6s7ZBMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s7ZBcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6s7ZBsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="button2" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgDnMMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wkl3QMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgEOQMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Wkl3QcMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgE1UMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6s7ZB8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s7ZCMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6s91QMK_Ee2ePvNdNGTLsQ" source="_6s91ScK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cinzAcK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vioIcK_Ee2ePvNdNGTLsQ" position="170.0,170.0"/>
+    <stereotypes xmi:id="_6s91QcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cipBIMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6s91QsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6s91Q8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cinzAsK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6s91RMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s91RcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6s91RsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="calendarView" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgE1UsK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WkqvwMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgFcYMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WkrW0MMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgGDcMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6s91R8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s91SMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6tW20MK_Ee2ePvNdNGTLsQ" source="_6ttcIMK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cipoMMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vjPMMK_Ee2ePvNdNGTLsQ" position="190.0,190.0"/>
+    <stereotypes xmi:id="_6tgAwcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_ciq2UMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6teyoMK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6tfZsMK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cipoMcK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6tmHYMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6tlgUMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6tgAwMK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="rootView" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgIfsMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WktzEMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgJGwMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WkuaIMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgJt0MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6tmHYsK_Ee2ePvNdNGTLsQ" label="-"/>
+      <cardinality xmi:id="_6tmHYcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6tXd4MK_Ee2ePvNdNGTLsQ" source="_6ttcIMK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cirdYMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vjPMcK_Ee2ePvNdNGTLsQ" position="210.0,210.0"/>
+    <stereotypes xmi:id="_6tgn0sK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cisrgMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6tgAwsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6tgn0MK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cirdYcK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6tmuc8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6tmucsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6tgn0cK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="button6" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgKU4MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wkw2YMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgK78MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WkxdcMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgK78cK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6tnVgMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6tmudMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6tXd4cK_Ee2ePvNdNGTLsQ" source="_6ttcIMK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cisrgcK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vj2QMK_Ee2ePvNdNGTLsQ" position="230.0,230.0"/>
+    <stereotypes xmi:id="_6tjrIMK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cit5oMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6tgn08K_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6th18MK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cisrgsK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6tn8kMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6tnVg8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6tidAMK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="button7" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgMKEMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WlICwMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgMKEcK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlICwcMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgMxIMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6tn8ksK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6tn8kcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6ts1EMK_Ee2ePvNdNGTLsQ" source="_6ttcIMK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_ciugsMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vj2QcK_Ee2ePvNdNGTLsQ" position="250.0,250.0"/>
+    <stereotypes xmi:id="_6ts1EcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cixkAMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6ts1EsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6ts1E8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_ciugscK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6ts1FMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ts1FcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6ts1FsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="textView8" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgNYMMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WlPXgMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgN_QMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlP-kMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgOmUMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6ts1F8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ts1GMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6uA-IMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cizZMcK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vj2QsK_Ee2ePvNdNGTLsQ" position="270.0,270.0"/>
+    <stereotypes xmi:id="_6uXjccK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_ci1OYMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6uW8YMK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6uW8YcK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cizZMsK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6udDAcK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6udDAMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6uXjcMK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="rootView" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgZlcMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WlSa0MMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgaMgMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlSa0cMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgazkMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6udqEcK_Ee2ePvNdNGTLsQ" label="-"/>
+      <cardinality xmi:id="_6udqEMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6uA-IcK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_ci11cMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vkdUMK_Ee2ePvNdNGTLsQ" position="290.0,290.0"/>
+    <stereotypes xmi:id="_6uYKgcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_ci3DkMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6uXjcsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6uXjc8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_ci11ccK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6ueRIsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ueRIcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6uYKgMK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="buttonCalculate" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgbaocK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WlX6YMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgcowMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlZvkMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgdP0MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6ue4MMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ueRI8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6uBlMMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_ci3qoMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vkdUcK_Ee2ePvNdNGTLsQ" position="310.0,310.0"/>
+    <stereotypes xmi:id="_6uZYocK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_ci44wMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6uYKgsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6uYxkMK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_ci3qocK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6ugtYMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ugGUMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6uZYoMK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="buttonNext" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgd24MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wla9sMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cged8MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlbkwMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgfFAMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6uhUccK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uhUcMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6uCMQMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_ci-_YMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vlrcsK_Ee2ePvNdNGTLsQ" position="390.0,390.0"/>
+    <stereotypes xmi:id="_6uZ_sMK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cjANgMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6uZYosK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6uZYo8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_ci-_YcK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6uh7gMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uhUdMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6uZYpMK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="linearLayout" navigable="true">
+      <modelElement href="Insulin_app.uml#_cglysMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WlbkwcMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgnA0MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlbkwsMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgnn4MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6uh7gsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uh7gcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6uCMQcK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cjLMoMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vngocK_Ee2ePvNdNGTLsQ" position="530.0,530.0"/>
+    <stereotypes xmi:id="_6uamwMK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cjMawMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6uZ_scK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6uZ_ssK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cjLMocK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6uiiksK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uiikcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6uZ_s8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="textView" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgzOEsK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wlbkw8MfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgz1IMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlbkxMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cg1DQMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6ujJocK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ujJoMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6upQQMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_ci44wcK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vlEYMK_Ee2ePvNdNGTLsQ" position="330.0,330.0"/>
+    <stereotypes xmi:id="_6upQQcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_ci6G4MK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6upQQsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6upQQ8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_ci44wsK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6upQRMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6upQRcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6upQRsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="editTextAge" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgfsEMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wlf2MMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cggTIMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlgdQMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgg6MMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6upQR8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6upQSMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6urFcMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_ci6t8MK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vlrcMK_Ee2ePvNdNGTLsQ" position="350.0,350.0"/>
+    <stereotypes xmi:id="_6urFccK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_ci78EMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6urFcsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6urFc8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_ci6t8cK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6urFdMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6urFdcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6urFdsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="editTextHeight" navigable="true">
+      <modelElement href="Insulin_app.uml#_cghhQMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WlhEUMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgiIUMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlhEUcMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgivYMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6urFd8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6urFeMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6usTkMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_ci78EcK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vlrccK_Ee2ePvNdNGTLsQ" position="370.0,370.0"/>
+    <stereotypes xmi:id="_6usTkcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_ci-YUMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6usTksK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6usTk8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_ci78EsK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6usTlMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6usTlcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6usTlsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="editTextWeight" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgjWcMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WlpAIMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgkkkMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlpnMMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cglLoMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6usTl8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6usTmMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6uuIwMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cjA0kMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vmSgMK_Ee2ePvNdNGTLsQ" position="410.0,410.0"/>
+    <stereotypes xmi:id="_6uuIwcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cjCpwMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6uuIwsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6uuIw8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cjA0kcK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6uuIxMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uuIxcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6uuIxsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="radioButton" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgnn4sK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WlsDcMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgoO8MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlsDccMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgo2AMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6uuIx8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uuIyMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6uwlAMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cjDQ0MK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vmSgcK_Ee2ePvNdNGTLsQ" position="430.0,430.0"/>
+    <stereotypes xmi:id="_6uwlAcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cjEe8MK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6uwlAsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6uwlA8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cjDQ0cK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6uwlBMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uwlBcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6uwlBsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="radioButton2" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgpdEcK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wlt4oMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgqrMMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlufsMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgr5UMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6uwlB8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uwlCMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6uxzIMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cjEe8cK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vmSgsK_Ee2ePvNdNGTLsQ" position="450.0,450.0"/>
+    <stereotypes xmi:id="_6uxzIcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cjFtEMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6uxzIsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6uxzI8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cjEe8sK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6uxzJMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uxzJcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6uxzJsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="radioButton3" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgsgYMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wlvt0MMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgtHcMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlwU4MMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgtugMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6uxzJ8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uxzKMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6uzoUMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cjFtEcK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vm5kMK_Ee2ePvNdNGTLsQ" position="470.0,470.0"/>
+    <stereotypes xmi:id="_6uzoUcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cjG7MMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6uzoUsK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6uzoU8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cjFtEsK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6uzoVMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uzoVcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6uzoVsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="radioButton4" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgu8oMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WlyKEMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgvjsMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WlyKEcMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgvjscK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6uzoV8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6uzoWMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6u2EkMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cjHiQMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vm5kcK_Ee2ePvNdNGTLsQ" position="490.0,490.0"/>
+    <stereotypes xmi:id="_6u2EkcK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cjIwYMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6u2EksK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6u2Ek8K_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cjHiQcK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6u2ElMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u2ElcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6u2ElsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="radioButton5" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgwKwcK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wlz_QMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgwx0MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Wl0mUMMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgxY4MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6u2El8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u2EmMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_6u3SsMK_Ee2ePvNdNGTLsQ" source="_6u4g0MK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cjJXcMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6vngoMK_Ee2ePvNdNGTLsQ" position="510.0,510.0"/>
+    <stereotypes xmi:id="_6u35wMK_Ee2ePvNdNGTLsQ" name="Reference">
+      <modelElement href="Insulin_app.uml#_cjKlkMK-Ee2ePvNdNGTLsQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_6u35wcK_Ee2ePvNdNGTLsQ" text=""/>
+    <sourceRole xmi:id="_6u35wsK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="">
+      <modelElement href="Insulin_app.uml#_cjJXccK-Ee2ePvNdNGTLsQ"/>
+      <visibility xmi:id="_6u35w8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u35xMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_6u35xcK_Ee2ePvNdNGTLsQ" aggregationKind="NONE" name="radioButton6" navigable="true">
+      <modelElement href="Insulin_app.uml#_cgx_8MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wl3poMMfEe2M04jsXkK_ig" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cgynAMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_Wl3pocMfEe2M04jsXkK_ig" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cgzOEMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6u35xsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u35x8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6s91ScK_Ee2ePvNdNGTLsQ" name="ActivityCalendarBinding" associationsOut="_6suksMK_Ee2ePvNdNGTLsQ _6s48wMK_Ee2ePvNdNGTLsQ _6s7ZAMK_Ee2ePvNdNGTLsQ _6s91QMK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cUc0IMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6s91SsK_Ee2ePvNdNGTLsQ" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6s91S8K_Ee2ePvNdNGTLsQ" label="+"/>
+    <attributes xmi:id="_6s91TMK_Ee2ePvNdNGTLsQ" name="rootView">
+      <modelElement href="Insulin_app.uml#_cf-usMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WoJhkMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WoNL8MMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WoYyIMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WoZZMMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsX6QMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsZvcMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6s91T8K_Ee2ePvNdNGTLsQ" label="-"/>
+      <cardinality xmi:id="_6s91UMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6s91UcK_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+        <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6s91UsK_Ee2ePvNdNGTLsQ" name="button">
+      <modelElement href="Insulin_app.uml#_cgByAMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WoccgMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WodDkMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WoijIMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WoijIcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsaWgMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsaWgcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6s91VcK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s91VsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6s91V8K_Ee2ePvNdNGTLsQ" name="Button">
+        <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6s91WMK_Ee2ePvNdNGTLsQ" name="button2">
+      <modelElement href="Insulin_app.uml#_cgDnMMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WooCsMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WooCscMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Wos7MMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wov-gMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsaWgsMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsaWg8MfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6s91W8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s91XMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6s-cUMK_Ee2ePvNdNGTLsQ" name="Button">
+        <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6s-cUcK_Ee2ePvNdNGTLsQ" name="calendarView">
+      <modelElement href="Insulin_app.uml#_cgE1UsK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WoxMoMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wozo4MMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Wo3TQMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wo5IcMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsiSUMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WskukMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6s-cVMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s-cVcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6s-cVsK_Ee2ePvNdNGTLsQ" name="CalendarView">
+        <modelElement href="Insulin_app.uml#_cbxkIMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6s-cV8K_Ee2ePvNdNGTLsQ" name="getRoot">
+      <modelElement href="Insulin_app.uml#_cUtS0MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6s-cWMK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cUyyYMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6s-cWcK_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cU11sMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6s-cWsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s-cW8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6s-cXMK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_ceLX4MK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6s-cXcK_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+          <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6s-cXsK_Ee2ePvNdNGTLsQ" name="ActivityCalendarBinding">
+      <modelElement href="Insulin_app.uml#_ceEDIMK-Ee2ePvNdNGTLsQ"/>
+      <keywords xmi:id="_6s-cX8K_Ee2ePvNdNGTLsQ" keyword="create"/>
+      <stereotypes xmi:id="_6s-cYMK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_ceHGcMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6s-cYcK_Ee2ePvNdNGTLsQ" label="-"/>
+      <cardinality xmi:id="_6s-cYsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6s_DYMK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_ceHtgMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6s_DYcK_Ee2ePvNdNGTLsQ" name="ActivityCalendarBinding">
+          <modelElement href="Insulin_app.uml#_cUc0IMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6s_DYsK_Ee2ePvNdNGTLsQ" name="rootView">
+        <modelElement href="Insulin_app.uml#_ceEDIcK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6s_DY8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6s_DZMK_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+          <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6s_DZcK_Ee2ePvNdNGTLsQ" name="button">
+        <modelElement href="Insulin_app.uml#_ceEqMMK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6s_DZsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6s_DZ8K_Ee2ePvNdNGTLsQ" name="Button">
+          <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6s_DaMK_Ee2ePvNdNGTLsQ" name="button2">
+        <modelElement href="Insulin_app.uml#_ceFRQMK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6s_DacK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6s_DasK_Ee2ePvNdNGTLsQ" name="Button">
+          <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6s_Da8K_Ee2ePvNdNGTLsQ" name="calendarView">
+        <modelElement href="Insulin_app.uml#_ceFRQcK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6s_DbMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6s_DbcK_Ee2ePvNdNGTLsQ" name="CalendarView">
+          <modelElement href="Insulin_app.uml#_cbxkIMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6s_DbsK_Ee2ePvNdNGTLsQ" name="inflate" staticOperation="true">
+      <modelElement href="Insulin_app.uml#_ceL-8MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6s_Db8K_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_ceNNEMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6s_DcMK_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cePCQMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6s_DccK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s_DcsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6s_Dc8K_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_ceMmAMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6s_DdMK_Ee2ePvNdNGTLsQ" name="ActivityCalendarBinding">
+          <modelElement href="Insulin_app.uml#_cUc0IMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6s_DdcK_Ee2ePvNdNGTLsQ" name="inflater">
+        <modelElement href="Insulin_app.uml#_ceL-8cK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6s_DdsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6s_Dd8K_Ee2ePvNdNGTLsQ" name="LayoutInflater">
+          <modelElement href="Insulin_app.uml#_cbl98MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6s_DeMK_Ee2ePvNdNGTLsQ" name="inflate" staticOperation="true">
+      <modelElement href="Insulin_app.uml#_ceQQYMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6s_DecK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_ceSFkMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6s_DesK_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_ceVI4MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6s_De8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s_DfMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6s_DfcK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_ceRegMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6s_DfsK_Ee2ePvNdNGTLsQ" name="ActivityCalendarBinding">
+          <modelElement href="Insulin_app.uml#_cUc0IMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6s_Df8K_Ee2ePvNdNGTLsQ" name="inflater">
+        <modelElement href="Insulin_app.uml#_ceQQYcK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6s_DgMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6s_DgcK_Ee2ePvNdNGTLsQ" name="LayoutInflater">
+          <modelElement href="Insulin_app.uml#_cbl98MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6s_DgsK_Ee2ePvNdNGTLsQ" name="parent">
+        <modelElement href="Insulin_app.uml#_ceQ3cMK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6s_Dg8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6s_DhMK_Ee2ePvNdNGTLsQ" name="ViewGroup">
+          <modelElement href="Insulin_app.uml#_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6s_DhcK_Ee2ePvNdNGTLsQ" name="attachToParent">
+        <modelElement href="Insulin_app.uml#_ceQ3ccK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6s_DhsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6s_Dh8K_Ee2ePvNdNGTLsQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6s_DiMK_Ee2ePvNdNGTLsQ" name="bind" staticOperation="true">
+      <modelElement href="Insulin_app.uml#_ceWXAMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6s_DicK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_ceYMMMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6s_DisK_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_ceaBYMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6s_Di8K_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6s_DjMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6s_DjcK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_ceW-EMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6s_DjsK_Ee2ePvNdNGTLsQ" name="ActivityCalendarBinding">
+          <modelElement href="Insulin_app.uml#_cUc0IMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6s_Dj8K_Ee2ePvNdNGTLsQ" name="rootView">
+        <modelElement href="Insulin_app.uml#_ceWXAcK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6s_DkMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6s_DkcK_Ee2ePvNdNGTLsQ" name="View">
+          <modelElement href="Insulin_app.uml#_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6ttcIMK_Ee2ePvNdNGTLsQ" name="ActivityFirstBinding" associationsOut="_6tW20MK_Ee2ePvNdNGTLsQ _6tXd4MK_Ee2ePvNdNGTLsQ _6tXd4cK_Ee2ePvNdNGTLsQ _6ts1EMK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cVbrkMK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6ttcIcK_Ee2ePvNdNGTLsQ" position="1135.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6ttcIsK_Ee2ePvNdNGTLsQ" label="+"/>
+    <attributes xmi:id="_6ttcI8K_Ee2ePvNdNGTLsQ" name="rootView">
+      <modelElement href="Insulin_app.uml#_cgIfsMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wo8LwMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wo-A8MMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WpBEQMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpBEQcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WslVoMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WslVocMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6ttcJsK_Ee2ePvNdNGTLsQ" label="-"/>
+      <cardinality xmi:id="_6ttcJ8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6ttcKMK_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+        <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6ttcKcK_Ee2ePvNdNGTLsQ" name="button6">
+      <modelElement href="Insulin_app.uml#_cgKU4MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WpGj0MMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpGj0cMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WpNRgMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpNRgcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsrcQMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WssDUMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6ttcLMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ttcLcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6ttcLsK_Ee2ePvNdNGTLsQ" name="Button">
+        <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6ttcL8K_Ee2ePvNdNGTLsQ" name="button7">
+      <modelElement href="Insulin_app.uml#_cgMKEMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WpSxEMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpTYIMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WpWbcMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpWbccMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsvGoMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsvtsMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6ttcMsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ttcM8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6ttcNMK_Ee2ePvNdNGTLsQ" name="Button">
+        <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6ttcNcK_Ee2ePvNdNGTLsQ" name="textView8">
+      <modelElement href="Insulin_app.uml#_cgNYMMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WpWbcsMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpbT8MMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Wpe-UMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpgMcMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsvtscMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsvtssMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6ttcOMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ttcOcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6ttcOsK_Ee2ePvNdNGTLsQ" name="TextView">
+        <modelElement href="Insulin_app.uml#_ccZPMMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6ttcO8K_Ee2ePvNdNGTLsQ" name="getRoot">
+      <modelElement href="Insulin_app.uml#_cViZQMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6ttcPMK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cVjnYMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6ttcPcK_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cVk1gMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6ttcPsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ttcP8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6ttcQMK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_cem1sMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6ttcQcK_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+          <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6ttcQsK_Ee2ePvNdNGTLsQ" name="ActivityFirstBinding">
+      <modelElement href="Insulin_app.uml#_cee54MK-Ee2ePvNdNGTLsQ"/>
+      <keywords xmi:id="_6ttcQ8K_Ee2ePvNdNGTLsQ" keyword="create"/>
+      <stereotypes xmi:id="_6ttcRMK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_ceh9MMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6ttcRcK_Ee2ePvNdNGTLsQ" label="-"/>
+      <cardinality xmi:id="_6ttcRsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6ttcR8K_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_ceikQMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6ttcSMK_Ee2ePvNdNGTLsQ" name="ActivityFirstBinding">
+          <modelElement href="Insulin_app.uml#_cVbrkMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6ttcScK_Ee2ePvNdNGTLsQ" name="rootView">
+        <modelElement href="Insulin_app.uml#_cee54cK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6ttcSsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6ttcS8K_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+          <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6ttcTMK_Ee2ePvNdNGTLsQ" name="button6">
+        <modelElement href="Insulin_app.uml#_cefg8MK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6ttcTcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6ttcTsK_Ee2ePvNdNGTLsQ" name="Button">
+          <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6ttcT8K_Ee2ePvNdNGTLsQ" name="button7">
+        <modelElement href="Insulin_app.uml#_cefg8cK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6ttcUMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6ttcUcK_Ee2ePvNdNGTLsQ" name="Button">
+          <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6ttcUsK_Ee2ePvNdNGTLsQ" name="textView8">
+        <modelElement href="Insulin_app.uml#_cefg8sK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6ttcU8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6ttcVMK_Ee2ePvNdNGTLsQ" name="TextView">
+          <modelElement href="Insulin_app.uml#_ccZPMMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6ttcVcK_Ee2ePvNdNGTLsQ" name="inflate" staticOperation="true">
+      <modelElement href="Insulin_app.uml#_ceoD0MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6ttcVsK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cep5AMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6ttcV8K_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_ceruMMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6ttcWMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ttcWcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6ttcWsK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_cepR8MK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6ttcW8K_Ee2ePvNdNGTLsQ" name="ActivityFirstBinding">
+          <modelElement href="Insulin_app.uml#_cVbrkMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6ttcXMK_Ee2ePvNdNGTLsQ" name="inflater">
+        <modelElement href="Insulin_app.uml#_ceoq4MK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6ttcXcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6ttcXsK_Ee2ePvNdNGTLsQ" name="LayoutInflater">
+          <modelElement href="Insulin_app.uml#_cbl98MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6ttcX8K_Ee2ePvNdNGTLsQ" name="inflate" staticOperation="true">
+      <modelElement href="Insulin_app.uml#_cetjYMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6ttcYMK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cevYkMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6ttcYcK_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cex00MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6ttcYsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ttcY8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6ttcZMK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_ceuxgMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6ttcZcK_Ee2ePvNdNGTLsQ" name="ActivityFirstBinding">
+          <modelElement href="Insulin_app.uml#_cVbrkMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6ttcZsK_Ee2ePvNdNGTLsQ" name="inflater">
+        <modelElement href="Insulin_app.uml#_cetjYcK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6ttcZ8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6ttcaMK_Ee2ePvNdNGTLsQ" name="LayoutInflater">
+          <modelElement href="Insulin_app.uml#_cbl98MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6ttcacK_Ee2ePvNdNGTLsQ" name="parent">
+        <modelElement href="Insulin_app.uml#_cetjYsK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6ttcasK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6ttca8K_Ee2ePvNdNGTLsQ" name="ViewGroup">
+          <modelElement href="Insulin_app.uml#_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6ttcbMK_Ee2ePvNdNGTLsQ" name="attachToParent">
+        <modelElement href="Insulin_app.uml#_ceuKcMK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6ttcbcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6ttcbsK_Ee2ePvNdNGTLsQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6ttcb8K_Ee2ePvNdNGTLsQ" name="bind" staticOperation="true">
+      <modelElement href="Insulin_app.uml#_ceyb4MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6ttccMK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cezqAMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6ttcccK_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_ce04IcK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6ttccsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6ttcc8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6ttcdMK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_cezC8MK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6ttcdcK_Ee2ePvNdNGTLsQ" name="ActivityFirstBinding">
+          <modelElement href="Insulin_app.uml#_cVbrkMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6ttcdsK_Ee2ePvNdNGTLsQ" name="rootView">
+        <modelElement href="Insulin_app.uml#_ceyb4cK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6ttcd8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6ttceMK_Ee2ePvNdNGTLsQ" name="View">
+          <modelElement href="Insulin_app.uml#_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_6u4g0MK_Ee2ePvNdNGTLsQ" name="ActivityMainBinding" associationsOut="_6uA-IMK_Ee2ePvNdNGTLsQ _6uA-IcK_Ee2ePvNdNGTLsQ _6uBlMMK_Ee2ePvNdNGTLsQ _6uCMQMK_Ee2ePvNdNGTLsQ _6uCMQcK_Ee2ePvNdNGTLsQ _6upQQMK_Ee2ePvNdNGTLsQ _6urFcMK_Ee2ePvNdNGTLsQ _6usTkMK_Ee2ePvNdNGTLsQ _6uuIwMK_Ee2ePvNdNGTLsQ _6uwlAMK_Ee2ePvNdNGTLsQ _6uxzIMK_Ee2ePvNdNGTLsQ _6uzoUMK_Ee2ePvNdNGTLsQ _6u2EkMK_Ee2ePvNdNGTLsQ _6u3SsMK_Ee2ePvNdNGTLsQ">
+    <modelElement href="Insulin_app.uml#_cWsP0MK-Ee2ePvNdNGTLsQ"/>
+    <visualProperties xmi:id="_6u4g0cK_Ee2ePvNdNGTLsQ" position="-2775.0,-501.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_6u4g0sK_Ee2ePvNdNGTLsQ" label="+"/>
+    <attributes xmi:id="_6u4g08K_Ee2ePvNdNGTLsQ" name="rootView">
+      <modelElement href="Insulin_app.uml#_cgZlcMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WphakMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WphakcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WphaksMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpmTEMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Ws10UMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Ws10UcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4g1sK_Ee2ePvNdNGTLsQ" label="-"/>
+      <cardinality xmi:id="_6u4g18K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4g2MK_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+        <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4g2cK_Ee2ePvNdNGTLsQ" name="buttonCalculate">
+      <modelElement href="Insulin_app.uml#_cgbaocK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WpqkgMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpqkgcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Wpu18MMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WpwrIMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Ws5esMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Ws5escMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4g3MK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4g3cK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4g3sK_Ee2ePvNdNGTLsQ" name="Button">
+        <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4g38K_Ee2ePvNdNGTLsQ" name="buttonNext">
+      <modelElement href="Insulin_app.uml#_cgd24MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wp2xwMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wp5OAMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Wp_7sMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wp_7scMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Ws5essMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Ws5es8MfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4g4sK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4g48K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4g5MK_Ee2ePvNdNGTLsQ" name="Button">
+        <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4g5cK_Ee2ePvNdNGTLsQ" name="editTextAge">
+      <modelElement href="Insulin_app.uml#_cgfsEMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WqYWMMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WqYWMcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WqcnoMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WqcnocMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Ws5etMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Ws_lUMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4g6MK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4g6cK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4g6sK_Ee2ePvNdNGTLsQ" name="EditText">
+        <modelElement href="Insulin_app.uml#_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4g68K_Ee2ePvNdNGTLsQ" name="editTextHeight">
+      <modelElement href="Insulin_app.uml#_cghhQMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WqsfQMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WqttYMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Wq2QQMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wq4sgMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Ws_lUcMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtCooMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4g7sK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4g78K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4g8MK_Ee2ePvNdNGTLsQ" name="EditText">
+        <modelElement href="Insulin_app.uml#_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4g8cK_Ee2ePvNdNGTLsQ" name="editTextWeight">
+      <modelElement href="Insulin_app.uml#_cgjWcMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wq898MMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wq898cMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WrJyQMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WrLncMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WtDPsMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtDPscMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4g9MK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4g9cK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4g9sK_Ee2ePvNdNGTLsQ" name="EditText">
+        <modelElement href="Insulin_app.uml#_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4g98K_Ee2ePvNdNGTLsQ" name="linearLayout">
+      <modelElement href="Insulin_app.uml#_cglysMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WqENIMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WqH3gMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WqKTwMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WqKTwcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WtDPssMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtKkcMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4g-sK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4g-8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4g_MK_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+        <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4g_cK_Ee2ePvNdNGTLsQ" name="radioButton">
+      <modelElement href="Insulin_app.uml#_cgnn4sK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WrQf8MMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WrUxYMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WrbfEMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WreiYMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WtKkccMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtNAsMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4hAMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hAcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4hAsK_Ee2ePvNdNGTLsQ" name="RadioButton">
+        <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4hA8K_Ee2ePvNdNGTLsQ" name="radioButton2">
+      <modelElement href="Insulin_app.uml#_cgpdEcK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wrg-oMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WrkB8MMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WrrWsMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wrw2QMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WtNAscMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtNAssMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4hBsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hB8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4hCMK_Ee2ePvNdNGTLsQ" name="RadioButton">
+        <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4hCcK_Ee2ePvNdNGTLsQ" name="radioButton3">
+      <modelElement href="Insulin_app.uml#_cgsgYMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_Wr5ZIMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wr6nQMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_Wr-RoMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_Wr-4sMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WtTHUMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtUVcMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4hDMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hDcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4hDsK_Ee2ePvNdNGTLsQ" name="RadioButton">
+        <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4hD8K_Ee2ePvNdNGTLsQ" name="radioButton4">
+      <modelElement href="Insulin_app.uml#_cgu8oMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WsCjEMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsEYQMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsGNcMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsHbkMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WtVjkMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtWKoMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4hEsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hE8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4hFMK_Ee2ePvNdNGTLsQ" name="RadioButton">
+        <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4hFcK_Ee2ePvNdNGTLsQ" name="radioButton5">
+      <modelElement href="Insulin_app.uml#_cgwKwcK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WsICoMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsICocMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsNiMMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsNiMcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WtWxsMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtWxscMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4hGMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hGcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4hGsK_Ee2ePvNdNGTLsQ" name="RadioButton">
+        <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4hG8K_Ee2ePvNdNGTLsQ" name="radioButton6">
+      <modelElement href="Insulin_app.uml#_cgx_8MK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WsQlgMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsQlgcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WsQlgsMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WsQlg8MfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WtWxssMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtWxs8MfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4hHsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hH8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4hIMK_Ee2ePvNdNGTLsQ" name="RadioButton">
+        <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_6u4hIcK_Ee2ePvNdNGTLsQ" name="textView">
+      <modelElement href="Insulin_app.uml#_cgzOEsK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_WqPMQMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WqPzUMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WqV58MMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WqXvIMMfEe2M04jsXkK_ig" name="Annotations"/>
+      <stereotypes xmi:id="_WtfUkMMfEe2M04jsXkK_ig" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_WtfUkcMfEe2M04jsXkK_ig" name="Annotations"/>
+      <visibility xmi:id="_6u4hJMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hJcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <type xmi:id="_6u4hJsK_Ee2ePvNdNGTLsQ" name="TextView">
+        <modelElement href="Insulin_app.uml#_ccZPMMK-Ee2ePvNdNGTLsQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_6u4hJ8K_Ee2ePvNdNGTLsQ" name="getRoot">
+      <modelElement href="Insulin_app.uml#_cW5EIMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6u4hKMK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cW65UMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6u4hKcK_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cW8HcMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6u4hKsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hK8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6u4hLMK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_cfeYYMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6u4hLcK_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+          <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_6u4hLsK_Ee2ePvNdNGTLsQ" name="ActivityMainBinding">
+      <modelElement href="Insulin_app.uml#_cfPH0MK-Ee2ePvNdNGTLsQ"/>
+      <keywords xmi:id="_6u4hL8K_Ee2ePvNdNGTLsQ" keyword="create"/>
+      <stereotypes xmi:id="_6u4hMMK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cfSLIMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6u4hMcK_Ee2ePvNdNGTLsQ" label="-"/>
+      <cardinality xmi:id="_6u4hMsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6u4hM8K_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_cfSLIcK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6u4hNMK_Ee2ePvNdNGTLsQ" name="ActivityMainBinding">
+          <modelElement href="Insulin_app.uml#_cWsP0MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6u4hNcK_Ee2ePvNdNGTLsQ" name="rootView">
+        <modelElement href="Insulin_app.uml#_cfPH0cK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hNsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hN8K_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+          <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hOMK_Ee2ePvNdNGTLsQ" name="buttonCalculate">
+        <modelElement href="Insulin_app.uml#_cfPH0sK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hOcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hOsK_Ee2ePvNdNGTLsQ" name="Button">
+          <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hO8K_Ee2ePvNdNGTLsQ" name="buttonNext">
+        <modelElement href="Insulin_app.uml#_cfPu4MK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hPMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hPcK_Ee2ePvNdNGTLsQ" name="Button">
+          <modelElement href="Insulin_app.uml#_cbvH4cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hPsK_Ee2ePvNdNGTLsQ" name="editTextAge">
+        <modelElement href="Insulin_app.uml#_cfPu4cK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hP8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hQMK_Ee2ePvNdNGTLsQ" name="EditText">
+          <modelElement href="Insulin_app.uml#_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hQcK_Ee2ePvNdNGTLsQ" name="editTextHeight">
+        <modelElement href="Insulin_app.uml#_cfPu4sK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hQsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hQ8K_Ee2ePvNdNGTLsQ" name="EditText">
+          <modelElement href="Insulin_app.uml#_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hRMK_Ee2ePvNdNGTLsQ" name="editTextWeight">
+        <modelElement href="Insulin_app.uml#_cfPu48K-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hRcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hRsK_Ee2ePvNdNGTLsQ" name="EditText">
+          <modelElement href="Insulin_app.uml#_cdCIYMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hR8K_Ee2ePvNdNGTLsQ" name="linearLayout">
+        <modelElement href="Insulin_app.uml#_cfQV8MK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hSMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hScK_Ee2ePvNdNGTLsQ" name="ConstraintLayout">
+          <modelElement href="Insulin_app.uml#_cb4R0cK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hSsK_Ee2ePvNdNGTLsQ" name="radioButton">
+        <modelElement href="Insulin_app.uml#_cfQV8cK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hS8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hTMK_Ee2ePvNdNGTLsQ" name="RadioButton">
+          <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hTcK_Ee2ePvNdNGTLsQ" name="radioButton2">
+        <modelElement href="Insulin_app.uml#_cfQV8sK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hTsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hT8K_Ee2ePvNdNGTLsQ" name="RadioButton">
+          <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hUMK_Ee2ePvNdNGTLsQ" name="radioButton3">
+        <modelElement href="Insulin_app.uml#_cfQV88K-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hUcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hUsK_Ee2ePvNdNGTLsQ" name="RadioButton">
+          <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hU8K_Ee2ePvNdNGTLsQ" name="radioButton4">
+        <modelElement href="Insulin_app.uml#_cfQV9MK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hVMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hVcK_Ee2ePvNdNGTLsQ" name="RadioButton">
+          <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hVsK_Ee2ePvNdNGTLsQ" name="radioButton5">
+        <modelElement href="Insulin_app.uml#_cfQ9AMK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hV8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hWMK_Ee2ePvNdNGTLsQ" name="RadioButton">
+          <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hWcK_Ee2ePvNdNGTLsQ" name="radioButton6">
+        <modelElement href="Insulin_app.uml#_cfQ9AcK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hWsK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hW8K_Ee2ePvNdNGTLsQ" name="RadioButton">
+          <modelElement href="Insulin_app.uml#_cdJdIMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hXMK_Ee2ePvNdNGTLsQ" name="textView">
+        <modelElement href="Insulin_app.uml#_cfQ9AsK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hXcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hXsK_Ee2ePvNdNGTLsQ" name="TextView">
+          <modelElement href="Insulin_app.uml#_ccZPMMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6u4hX8K_Ee2ePvNdNGTLsQ" name="inflate" staticOperation="true">
+      <modelElement href="Insulin_app.uml#_cfgNkMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6u4hYMK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cfhbsMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6u4hYcK_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cfm7QMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6u4hYsK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hY8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6u4hZMK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_cfg0oMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6u4hZcK_Ee2ePvNdNGTLsQ" name="ActivityMainBinding">
+          <modelElement href="Insulin_app.uml#_cWsP0MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6u4hZsK_Ee2ePvNdNGTLsQ" name="inflater">
+        <modelElement href="Insulin_app.uml#_cfgNkcK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hZ8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4haMK_Ee2ePvNdNGTLsQ" name="LayoutInflater">
+          <modelElement href="Insulin_app.uml#_cbl98MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6u4hacK_Ee2ePvNdNGTLsQ" name="inflate" staticOperation="true">
+      <modelElement href="Insulin_app.uml#_cfowcMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6u4hasK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cfsa0MK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6u4ha8K_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cfveIMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6u4hbMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hbcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6u4hbsK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_cfrMsMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6u4hb8K_Ee2ePvNdNGTLsQ" name="ActivityMainBinding">
+          <modelElement href="Insulin_app.uml#_cWsP0MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6u4hcMK_Ee2ePvNdNGTLsQ" name="inflater">
+        <modelElement href="Insulin_app.uml#_cfp-kMK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hccK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hcsK_Ee2ePvNdNGTLsQ" name="LayoutInflater">
+          <modelElement href="Insulin_app.uml#_cbl98MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hc8K_Ee2ePvNdNGTLsQ" name="parent">
+        <modelElement href="Insulin_app.uml#_cfqloMK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hdMK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hdcK_Ee2ePvNdNGTLsQ" name="ViewGroup">
+          <modelElement href="Insulin_app.uml#_cbtSsMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_6u4hdsK_Ee2ePvNdNGTLsQ" name="attachToParent">
+        <modelElement href="Insulin_app.uml#_cfqlocK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hd8K_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4heMK_Ee2ePvNdNGTLsQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_6u4hecK_Ee2ePvNdNGTLsQ" name="bind" staticOperation="true">
+      <modelElement href="Insulin_app.uml#_cfwFMMK-Ee2ePvNdNGTLsQ"/>
+      <stereotypes xmi:id="_6u4hesK_Ee2ePvNdNGTLsQ" name="LegacyStyledElement">
+        <modelElement href="Insulin_app.uml#_cfxTUMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_6u4he8K_Ee2ePvNdNGTLsQ" name="Annotations">
+        <modelElement href="Insulin_app.uml#_cfzIgMK-Ee2ePvNdNGTLsQ"/>
+      </stereotypes>
+      <visibility xmi:id="_6u4hfMK_Ee2ePvNdNGTLsQ" label="+"/>
+      <cardinality xmi:id="_6u4hfcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_6u4hfsK_Ee2ePvNdNGTLsQ">
+        <modelElement href="Insulin_app.uml#_cfwsQMK-Ee2ePvNdNGTLsQ"/>
+        <type xmi:id="_6u4hf8K_Ee2ePvNdNGTLsQ" name="ActivityMainBinding">
+          <modelElement href="Insulin_app.uml#_cWsP0MK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_6u4hgMK_Ee2ePvNdNGTLsQ" name="rootView">
+        <modelElement href="Insulin_app.uml#_cfwFMcK-Ee2ePvNdNGTLsQ"/>
+        <cardinality xmi:id="_6u4hgcK_Ee2ePvNdNGTLsQ" label="1" max="1" min="1"/>
+        <type xmi:id="_6u4hgsK_Ee2ePvNdNGTLsQ" name="View">
+          <modelElement href="Insulin_app.uml#_cbq2cMK-Ee2ePvNdNGTLsQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
